@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run check && vite build",
     "preview": "vite preview",
     "lint": "prettier --check . && eslint --ignore-path .gitignore .",
     "format": "prettier --write .",
@@ -35,7 +35,6 @@
     "@lukeed/uuid": "^2.0.0",
     "algoliasearch": "^4.14.1",
     "cookie": "^0.4.1",
-    "gray-matter": "^4.0.3",
     "svelte-language-server": "^0.15.0"
   }
 }
