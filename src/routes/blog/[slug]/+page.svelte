@@ -325,12 +325,7 @@
       year: "numeric",
     })}
   </span>
-  <a
-    class="post__edit"
-    href="https://github.com/jamesz96/blog/tree/main/src/routes/{currentSlug}/index.svx"
-    target="_blank"
-    rel="norel noreferrer">Suggest An Edit</a
-  >
+  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest An Edit</a>
   <div class="post__tags">
     {#each tags as tag}
       <div class="post__tag">{tag}</div>
@@ -357,7 +352,6 @@
 
 <script lang="ts">
   import type { PageData } from './$types'
-  import { page } from '$app/stores'
   import SEO from '$lib/components/SEO.svelte'
   import Giscus from '@giscus/svelte'
   import { theme } from '$lib/utils/theme'
@@ -365,6 +359,6 @@
   export let data: PageData
 
   const component = data.component
-  const { title, date, desc, tags } = data.meta
-  const currentSlug = $page.url.pathname
+  const { title, date, desc, tags, slug } = data.meta
+  const editLink = `https://github.com/jamesz96/blog/tree/main/src/blogposts/${slug}.svx`
 </script>
