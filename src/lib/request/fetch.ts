@@ -2,7 +2,7 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
 
-const basePath = path.join(process.cwd(), 'src/blogposts')
+const basePath = path.join(process.cwd(), 'src', 'blogposts')
 
 export interface Metadata {
   title: string;
