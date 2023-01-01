@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run check && vite build",
     "preview": "vite preview",
     "lint": "prettier --check . && eslint --ignore-path .gitignore .",
     "format": "prettier --write .",
