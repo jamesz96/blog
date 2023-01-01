@@ -27,7 +27,8 @@ async function readFile(file: string) {
 }
 
 export async function getResources(): Promise<Metadata[]> {
-  const files: string[]= await fs.promises.readdir(basePath)
-  const result = await Promise.all(files.map(readFile))
-  return result.sort(mostRecent)
+  // const files: string[]= await fs.promises.readdir(basePath)
+  // const result = await Promise.all(files.map(readFile))
+  // return result.sort(mostRecent)
+  return []
 }
