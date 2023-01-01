@@ -47,17 +47,17 @@
         <br />
         <p>
           My unremarkable journey into software began in my 2nd year of university when I transferred to a Computer Science program.
-          Before that, I was the physical embodiment of the infamous <i>Flexible First-Year</i> engineering program; meandering through the different disciplines with no signs of certainty.
-          I was, unsurprisingly, not allowed to remain as a <i>Flexible First-Year</i> student forever.
+          Before that, I was the physical embodiment of the infamous <i>Flexible First-Year</i> engineering program; meandering through the different disciplines with little hope of coming to a decision.
+          I was also, unsurprisingly, not allowed to remain as a <i>Flexible First-Year</i> student forever.
         </p>
         <br />
         <p>
-          The decision to pick software over the other engineering disciplines was perhaps a leap of faith at the time. I knew absolutely nothing about programming or the world of software.
+          Picking software over the other engineering disciplines was perhaps a leap of faith at the time. I knew absolutely nothing about programming or the world of software.
           All I knew was that I enjoyed solving silly random puzzles and building things for fun.
         </p>
         <br />
         <p>
-          I really believe that I would have made decision to pivot eventually - I'm just glad I did it while I was still a student.
+           Looking at how things turned out, I think it is safe to say that was all what was needed. It has been good fun so far.
         </p>
       </body>
     </Section>
