@@ -26,9 +26,15 @@ async function readFile(file: string) {
   return { ...matter(postContent).data as Metadata };
 }
 
+async function resolve(resolver: App.MdsvexResolver): Promise<App.MdsvexFile> {
+  return await resolver()
+}
+
 export async function getResources(): Promise<Metadata[]> {
   // const files: string[]= await fs.promises.readdir(basePath)
   // const result = await Promise.all(files.map(readFile))
   // return result.sort(mostRecent)
-  return []
+  const modules = import.meta.glob<boolean, string, App.MdsvexFile>('/src/blogposts/*.svx')
+  const result = await Promise.all(Object.values(modules).map(resolve))
+  return result.map(item => item.metadata as unknown as Metadata)
 }
