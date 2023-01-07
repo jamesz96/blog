@@ -15,7 +15,6 @@
 <section class="section">
   <h1>Hey, I'm James!</h1>
   <div class="body">
-    I'll eventually decide on what I should put here.
-    In the meantime, pretend I have written something profound or funny.
+    On this planet to learn and have fun
   </div>
 </section>

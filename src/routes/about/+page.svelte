@@ -48,7 +48,7 @@
         <p>
           My unremarkable journey into software began in my 2nd year of university when I transferred to a Computer Science program.
           Before that, I was the physical embodiment of the infamous <i>Flexible First-Year</i> engineering program; meandering through the different disciplines with little hope of coming to a decision.
-          I was also, unsurprisingly, not allowed to remain as a <i>Flexible First-Year</i> student forever.
+          I was also, unsurprisingly, not allowed to remain as a Flexible <i>First-Year</i> student forever.
         </p>
         <br />
         <p>
