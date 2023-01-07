@@ -7,19 +7,18 @@ tags:
   - Blog
 ---
 
-# 3, 2, 1, launch!
+# 3... 2... 1... We Have Liftoff!
 
-If you were to ask me 3 years ago whether I would ever have my own blog I'd probably have humoured the question with a non-serious remark before asking if you were serious.
-I suppose it is unsurprising things change.
+Many year ago, if you were to look me in the eyes and ask about starting a blog, I'd probably have humoured your question on the surface, but with a keen eye you'd catch me making some microexpression for dread. I suppose it is unsurprising things change.
 
-The closest experience I've had to blogging was back when I was at University. One of the core introductory Computer Science courses we had to take required us to blog about:
+The closest experience I've had to blogging was back when I was at university. One of the core introductory Computer Science courses we had to take required us to blog about:
 - lectures we attended for the course
 - tutorials
 - homework / assignments
 
 I don't consider it a true blogging experience - far from it. The main reason being that it wasn't organic. I suspect most people (including myself) put in the least amount of effort to receive that juicy course mark supplement for maintaining an active blog over the semester.
 
-There was just so much we had to blog about - it was definitely a case of quantity over quality. I tried taking it seriously at first, but it was just not worth the time. By the end of the semester, my blogposts had devolved into a pitiful state of shallow recounts, unrefined and loosely tied ideas. Any semblance of meaningful insight probably drowned along with my motivation.
+There was just so much we had to blog about; a case of quantity over quality. I tried taking it seriously at first, but it was just not worth the time. By the end of the semester, my blogposts had devolved into a pitiful state of shallow recounts, unrefined and loosely tied ideas. Any semblance of meaningful insight had probably shrivieled away - along with my motivation.
 
 So yeah, first experiences with blogging - not so great. Fortunately, later on I had discovered sites like [news.ycombinator](https://news.ycombinator.com/) (I'll probably share my reading list later on) where I had found some truly great blogs. They were a new avenue of learning for me, and at the same time they could be entertaining, insightful or even just plain silly.
 
