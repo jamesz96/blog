@@ -67,7 +67,7 @@
   }
 </style>
 
-<SEO title="Home" />
+<SEO title="Search" />
 <main class="main">
   <div class="search">
     <div class="search__icon">🔎︎</div>
