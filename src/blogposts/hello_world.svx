@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2023-01-01
-desc: If you were to ask me 3 years ago whether I would ever have my own blog I'd probably have humoured the question with a non-serious remark before asking if you were serious.
+desc: Many year ago, if you were to look me in the eyes and ask about starting a blog, I'd probably have humoured your question jokingly...
 slug: hello_world
 tags:
   - Blog
@@ -9,7 +9,7 @@ tags:
 
 # 3... 2... 1... We Have Liftoff!
 
-Many year ago, if you were to look me in the eyes and ask about starting a blog, I'd probably have humoured your question on the surface, but with a keen eye you'd catch me making some microexpression for dread. I suppose it is unsurprising things change.
+Many year ago, if you were to look me in the eyes and ask about starting a blog, I'd probably have humoured your question jokingly, but with a keen eye you may have caught me making some microexpression of dread. I suppose it is unsurprising things change.
 
 The closest experience I've had to blogging was back when I was at university. One of the core introductory Computer Science courses we had to take required us to blog about:
 - lectures we attended for the course
