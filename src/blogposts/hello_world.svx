@@ -11,16 +11,18 @@ tags:
 
 Many years ago, if you were to look me in the eyes and ask about starting a blog, I'd probably have humoured your question jokingly, but with a keen eye you may have caught me making some microexpression of dread. I suppose it is unsurprising things change.
 
-The closest experience I've had to blogging was back when I was at university. One of the core introductory Computer Science courses we had to take required us to blog about:
+The closest experience I've had to blogging was back when I was at university. One of the introductory (core) computer science courses at the time required us to maintain an active blog over the semester.
+
+We had to blog about:
 - lectures we attended for the course
 - tutorials
 - homework / assignments
 
-I don't consider it a true blogging experience - far from it. The main reason being that it wasn't organic. I suspect most people (including myself) put in the least amount of effort to receive that juicy course mark supplement for maintaining an active blog over the semester.
+I don't consider it a true blogging experience - far from it. The main reason being that it wasn't organic. I suspect most people (including myself) put in the least amount of effort in order to receive that juicy course mark supplement.
 
 There was just so much we had to blog about; a case of quantity over quality. I tried taking it seriously at first, but it was just not worth the time. By the end of the semester, my blogposts had devolved into a pitiful state of shallow recounts, unrefined and loosely tied ideas. Any semblance of meaningful insight had probably shrivieled away along with my motivation.
 
-So yeah, first experiences with blogging - not so great. Fortunately, later on I had discovered sites like [news.ycombinator](https://news.ycombinator.com/) (I'll probably share my reading list later on) where I had found some truly great blogs. They were a new avenue of learning for me, and at the same time they could be entertaining, insightful or even just plain silly.
+So yeah, first experiences with blogging - not so great. Fortunately, later on I had discovered sites like [news.ycombinator](https://news.ycombinator.com/) (I'll probably share my reading list later on) where I had found some truly great blogs. They were a new avenue of learning for me, and at the same time they could be entertaining, interesting or even just plain silly.
 
 Reading those blogs kind of inspired me to make my own, which funnily enough, is what you're reading at this exact moment!
 I don't have lofty ambitions for this blog, nor do I expect anyone to actually read anything on here.
@@ -28,11 +30,11 @@ I don't have lofty ambitions for this blog, nor do I expect anyone to actually r
 Oh well... maybe someone, somewhere will happen to find something useful in my future posts.
 
 At the very least, my goals with this blog are to:
-- Write about things that interest me
-- Write about things that others may *possibly* find useful
+- Write about things I find interesting
+- Write about things others may *possibly* find useful
 - Revive and improve my writing skills (gosh - writing is hard)
 - Serve as my creative outlet
-- Learn Svelte. It has been pretty cool so far
+- Learn Svelte - what I used to build this site
 
 Hopefully I'm able to keep this blog breathing for the forseeable future.
 
