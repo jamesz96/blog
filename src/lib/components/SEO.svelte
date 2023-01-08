@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>{title} | {siteName}</title>
+  <title>{title}</title>
   <link rel="canonical" href="{siteUrl}{$page.url.pathname}" />
   <meta name="description" content={desc} />
   <meta name="keywords" content={keywords.join(",").toLowerCase()} />
