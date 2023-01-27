@@ -58,7 +58,7 @@
     <Section title="Hobbies">
       <ul>
         <li>Small, random projects like this blog</li>
-        <li>Tinkering with my Neovim PDE</li>
+        <li>Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a></li>
         <li>Playing computer games. <i>Currently</i> Oldschool Runescape and Street Fighter V</li>
         <li>Venturing into the exceedingly deep modern history rabbit hole</li>
         <li>Reading blogs and books on science/tech</li>
