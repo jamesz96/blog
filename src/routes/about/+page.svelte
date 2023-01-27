@@ -42,22 +42,15 @@
     <Section title="About Me">
       <body>
         <p>
-          I'm a full-time Software Engineer working in Sydney, Australia.
+          I'm a full-stack software engineer working in Sydney, Australia.
+          <br />
+          My experience has mostly been on web apps, but I consider myself as more of a generalist.
         </p>
         <br />
         <p>
-          My unremarkable journey into software began in my 2nd year of university when I transferred to a Computer Science program.
-          Before that, I was the physical embodiment of the infamous <i>Flexible First-Year</i> engineering program; meandering through the different disciplines with little hope of coming to a decision.
-          I was also, unsurprisingly, not allowed to remain as a Flexible <i>First-Year</i> student forever.
-        </p>
-        <br />
-        <p>
-          Picking software over the other engineering disciplines was perhaps a leap of faith at the time. I knew absolutely nothing about programming or the world of software.
-          All I knew was that I enjoyed solving silly random puzzles and building things for fun.
-        </p>
-        <br />
-        <p>
-           Looking at how things turned out, I think it is safe to say that was all what was needed. It has been good fun so far.
+          For me, learning things as I go is the name of the game.
+          <br />
+          Whether it being on-the-job or letting my interests take the driver's seat; it has been great fun so far.
         </p>
       </body>
     </Section>
@@ -65,7 +58,7 @@
     <Section title="Hobbies">
       <ul>
         <li>Small, random projects like this blog</li>
-        <li>Tinkering with my Neovim configuration</li>
+        <li>Tinkering with my Neovim PDE</li>
         <li>Playing computer games. <i>Currently</i> Oldschool Runescape and Street Fighter V</li>
         <li>Venturing into the exceedingly deep modern history rabbit hole</li>
         <li>Reading blogs and books on science/tech</li>
