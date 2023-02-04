@@ -2,12 +2,12 @@
 title: Starting a blog
 date: 2023-01-01
 desc: Making my own blog is something I'd never thought I would do - yet, here I am doing just that.
-slug: starting_a_blog 
+slug: starting_a_blog
 tags:
   - Blog
 ---
 
-# 3... 2... 1... We Have Liftoff!
+# Starting a Blog
 
 Making my own blog is something I'd never thought I would do - yet, here I am.
 
@@ -30,11 +30,13 @@ I already have a couple of ideas for my next blogposts that I'm almost certain n
 
 ### Writing
 
-As for writing, if the intent is honest and the motivation is there, writing capabilities should not be a limiting factor in starting a own blog. At the bare minimum, the focus is on the topic at hand.
+As for writing, if the intent is honest and the motivation is there, writing capabilities should not be a limiting factor in starting a blog. At the bare minimum, the focus is on the topic at hand.
 Simply writing the blogpost for oneself is already satisfactory, especially if only for self-learning purposes. Though, this isn't to say that being a better writer doesn't help, because it certainly does.
+Content that is engaging goes a long way.
 
-I've never considered myself a good writer, which is one of the reasons why I've always held off on this for so long.
+I've never considered myself a decent writer (a slow one at best), which is one of the reasons why I have held off on this for so long.
 
+___
+
+Now that those inhibitions are gone, let's see where this takes us!
 Hopefully I'm able to keep this blog breathing for the forseeable future.
-
-Oh yeah and almost forgot - Happy New Year!
