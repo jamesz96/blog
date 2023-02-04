@@ -1,0 +1,42 @@
+---
+title: Starting a blog
+date: 2023-01-01
+desc: Making my own blog is something I'd never thought I would do - yet, here I am doing just that.
+slug: starting_a_blog
+tags:
+  - Blog
+---
+
+# Starting a Blog
+
+Making my own blog is something I'd never thought I would do - yet, here I am.
+
+I've recently broken two preconceived ideas of mine when it comes to starting your own blog:
+- You need to write about things that people want to read
+- You need to at the very least, be decent at writing
+
+
+### Interest
+
+Having a *successful* blog with hundreds of readers would indicate some level interest, as well as writing proficiency, but what about your run-of-the-mill blog that is lucky to even get a single view in a month?
+
+Most people write blogs because they have something to share. They get enjoyment from it. I would even go as far as to say that most couldn't care less about how *successful* their blog is. It is natural to assume a *successful* blog is one that garners an audience,
+but success is defined as "accomplishing a desired aim"; who am I assume what the author's *aim* is?
+
+Understanding this, it is easy to see why it is unneccesary to write about what others want to read. Write about what interests you! It is not only sustainable, but it can be a source of joy and growth.
+
+I already have a couple of ideas for my next blogposts that I'm almost certain nobody cares about, but I'm having great fun drafting and collecting the material.
+
+
+### Writing
+
+As for writing, if the intent is honest and the motivation is there, writing capabilities should not be a limiting factor in starting a blog. At the bare minimum, the focus is on the topic at hand.
+Simply writing the blogpost for oneself is already satisfactory, especially if only for self-learning purposes. Though, this isn't to say that being a better writer doesn't help, because it certainly does.
+Content that is engaging goes a long way.
+
+I've never considered myself a decent writer (a slow one at best), which is one of the reasons why I have held off on this for so long.
+
+___
+
+Now that those inhibitions are gone, let's see where this takes us!
+Hopefully I'm able to keep this blog breathing for the forseeable future.
