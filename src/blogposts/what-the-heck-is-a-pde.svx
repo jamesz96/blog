@@ -1,0 +1,25 @@
+---
+title: My DEV env and why I use a PDE
+date: 2023-02-24
+desc: I used to be a developer like you, then I took an ar-- Sorry.
+slug: what-the-heck-is-a-pde
+tags:
+  - dev
+  - env
+---
+
+<script>
+  import YoutubeVideo from '$lib/components/YoutubeVideo.svelte'
+</script>
+
+
+# PDE
+
+Wait... what the heck is a PDE?
+
+Well, my befuddled friend do I have just the video for you.
+
+<YoutubeVideo videoId="QMVIJhC9Veg" />
+
+tldw; Tweaking and composing tools (in the spirit of the UNIX Philosophy) to create things **YOU** find useful
+
