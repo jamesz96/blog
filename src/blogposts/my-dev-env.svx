@@ -1,0 +1,26 @@
+---
+title: My DEV Environment
+date: 2023-02-24
+desc: I used to be a developer like you, then I took an ar-- Sorry.
+slug: my-dev-env
+tags:
+  - dev
+  - env
+---
+
+# Environment
+
+My day to day workflow primarly takes place on the command line inside a Tmux session.
+
+
+Notes:
+
+- Scriptable ZSH shell
+- Alacritty terminal
+- dotfiles, simply cloning the repository
+- powerline (looks nice and simple)
+- neovim editor
+- tmux
+- lazygit and lazydocker
+
+

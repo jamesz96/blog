@@ -23,7 +23,6 @@
     font-weight: 300;
     text-align: center;
     line-height: 1.5em;
-    text-transform: capitalize;
     grid-column-start: span 2;
   }
 
@@ -70,7 +69,6 @@
     gap: 0.5rem;
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
-    text-transform: capitalize;
   }
 
   .card__tag:hover {
