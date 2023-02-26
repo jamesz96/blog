@@ -1,16 +1,48 @@
 ---
 title: My DEV Environment
 date: 2023-02-24
-desc: I used to be a developer like you, then I took an ar-- Sorry.
+desc: I used to be an IDE developer like you, then I took an ar-- Sorry.
 slug: my-dev-env
 tags:
   - dev
   - env
 ---
 
-# Environment
+# Background
 
-My day to day workflow primarly takes place on the command line inside a Tmux session.
+For a long time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
+
+There is a stark contrast between having a *productive* environment and having the *perfect* environment. In my opinion you cannot reach the latter; you can only approach this *perfection* limit. I'm no mathematician - so don't ask for a proof.
+
+Something productive can be achieved with a suprisingly few number of components at first, though I admit there is that initial learning curve.
+Once you get over it however, it can an absolute joy to customise and extend your environment any way you like - the world is your oyster.
+
+It won't take long before you realise that you can never actually *finish* building your environment, it is always a WIP.
+
+
+# The Good Stuff
+
+Some of the main tools/components I have as part of my environment
+
+
+## tmux
+
+My day to day workflows all take place on the command line inside a tmux session.
+
+Truly an absolute game-changer for helping me with general context switching and reducing the cognitive load when working with many apps at once.
+
+I primarily use sessions and windows, rarely panes.
+
+![tmux-cmd-line](https://user-images.githubusercontent.com/30682722/221444577-086465e3-e5f4-4fe2-a748-bfb542b7bc14.mov)
+*"happy" session, 1 window (zsh)*
+
+___
+
+![tmux-session-list](https://user-images.githubusercontent.com/30682722/221444333-7b4313d5-b240-4845-8263-1aab15690cba.png)
+*View other sessions*
+
+___
+
 
 
 Notes:
