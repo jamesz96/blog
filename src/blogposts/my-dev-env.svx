@@ -12,10 +12,11 @@ tags:
 
 For a long time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
 
-There is a stark contrast between having a *productive* environment and having the *perfect* environment. In my opinion you cannot reach the latter; you can only approach this *perfection* limit. I'm no mathematician - so don't ask for a proof.
+There is a stark contrast between having a *productive* environment and having the *perfect* environment. In my opinion you cannot reach the latter; you can only approach this limit of perfection.
+I'm no mathematician - so don't ask for a proof.
 
-Something productive can be achieved with a suprisingly few number of components at first, though I admit there is that initial learning curve.
-Once you get over it however, it can an absolute joy to customise and extend your environment any way you like - the world is your oyster.
+Something productive can be achieved with a suprisingly few number of components at first, though I admit this varies from person to person.
+With time, you will reach this point. Once you reach it there is no going back. It is an absolute joy to customise and extend - the world is your oyster.
 
 It won't take long before you realise that you can never actually *finish* building your environment, it is always a WIP.
 
