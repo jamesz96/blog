@@ -1,6 +1,6 @@
 ---
 title: My DEV Environment
-date: 2023-02-24
+date: 2023-03-12
 desc: I used to be an IDE developer like you, then I took an ar-- Sorry.
 slug: my-dev-env
 tags:
@@ -12,13 +12,15 @@ tags:
 
 For a long time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
 
-There is a stark contrast between having a *productive* environment and having the *perfect* environment. In my opinion you cannot reach the latter; you can only approach this limit of perfection.
-I'm no mathematician - so don't ask for a proof.
+There is a stark contrast between having a *productive* environment and having the *perfect* environment.
 
-Something productive can be achieved with a suprisingly few number of components at first, though I admit this varies from person to person.
-With time, you will reach this point. Once you reach it there is no going back. It is an absolute joy to customise and extend - the world is your oyster.
+Having a productive environment definitely depends on the person, but I would go as far to say that most people would be surprised by how few things they need in order to be productive.
+I won't deny that there is some initial time investment, though my point is rather *you get out what you put in*.
 
-It won't take long before you realise that you can never actually *finish* building your environment, it is always a WIP.
+The more time you spend understanding and building workflows that work for you, the more productive you are on the other side.
+I could say this for any development environment, but I've found that it is easiest to achieve these things with terminal based one.
+
+It doesn't take long to realise that you can never actually *finish* building your environment, it is always a WIP.
 
 
 # The Good Stuff
@@ -34,26 +36,96 @@ Truly an absolute game-changer for helping me with general context switching and
 
 I primarily use sessions and windows, rarely panes.
 
-![tmux-cmd-line](https://user-images.githubusercontent.com/30682722/221444577-086465e3-e5f4-4fe2-a748-bfb542b7bc14.mov)
-*"happy" session, 1 window (zsh)*
+[![asciicast](https://asciinema.org/a/k9k0eVkfjNcTbViYl0ypVu7PC.svg)](https://asciinema.org/a/k9k0eVkfjNcTbViYl0ypVu7PC)
+
+*Asciicast thumbnail is a bit borked - the tmux statusline is not rendered properly* 🤷
 
 ___
 
-![tmux-session-list](https://user-images.githubusercontent.com/30682722/221444333-7b4313d5-b240-4845-8263-1aab15690cba.png)
-*View other sessions*
+## Alacritty
+
+My terminal emulator of choice for its simplicity and alignment with the philosophy of composing tools together.
+
+> This means you won't find things like tabs or splits (which are best left to a window manager or terminal multiplexer) nor niceties like a GUI config editor.
+
+Alacritty was built from the ground up to be highly extensible and as a result its base feature list is very conservative. This means no bloat.
+
+The OpenGL rendering is also a huge performance bonus.
+
+- https://alacritty.org/
+- https://jwilm.io/blog/announcing-alacritty/
 
 ___
 
+## Zsh
+
+A very powerful shell with many new features and differences to bash.
+
+My [zsh config](https://github.com/jamesz96/dotfiles/tree/main/config/zsh) is very simple and I intend to keep it that way.
+- I only have a few basic zsh functions, aliases, and bindings at the moment
+- A simple (but primitive) way of loading things dynamically
+
+I don't use [Oh My Zsh](https://ohmyz.sh/) as I find it to be quite bloated, but maybe the real reason is that I'd prefer to know how things work under the hood.
+
+You probably know by now that I'm a simplicity enjoyer, so for the looks of my shell:
+
+![powerline-shell-theme](https://user-images.githubusercontent.com/30682722/224516331-cf996c17-3fb6-47e7-bf2b-f98be6c8e5b4.png)
+
+*A customised variant of the 'pure' [powerline10k](https://github.com/romkatv/powerlevel10k) theme - see [theme config](https://github.com/jamesz96/dotfiles/blob/main/config/zsh/themes/p10k.zsh)*
+
+___
+
+## Neovim
+
+The humble editor. The focal point of my environment.
+
+Writing only a couple of sentences about it here won't do it justice so I'll probably dedicate an entire post about my Neovim config in the future.
+
+All I'll say for now is that I'm enormously grateful to the [Neovim](https://neovim.io/) team for creating something amazing.
+
+___
+
+## vimwiki
+
+Although [vimwiki](https://github.com/vimwiki/vimwiki) is a vim plugin I use inside Neovim, it is not actually related to editing code.
+It is an integral part of my work environment and so I think it is justified to have vimwiki as its own entry in this list.
+
+As the name suggests, it is a personal wiki.
+
+I've completely migrated off Notion and now manage everything inside vimwiki for things like:
+
+- task lists
+- diary
+- notes
+- work wiki
+- personal wiki
+
+Being able to use my personalised editor for writing anything from prose to simple task lists makes everything an absolute breeze.
+
+When I'm at work and need to jot something down or need to look something up in my notes, it is gratifying knowing that I can do so with minimal disruption to my work.
 
 
-Notes:
+___
 
-- Scriptable ZSH shell
-- Alacritty terminal
-- dotfiles, simply cloning the repository
-- powerline (looks nice and simple)
-- neovim editor
-- tmux
-- lazygit and lazydocker
+## Lazygit & Lazydocker
+
+Two very functional and pragmatic tools I use daily.
+
+The tool completely eliminates some tedious parts of my git workflow and the CLI interface is suprisingly ergonomic.
+
+- https://github.com/jesseduffield/lazygit
+- https://github.com/jesseduffield/lazydocker
 
 
+---
+
+## Dotfiles & Dotbot
+
+I use [my dotfiles](https://github.com/jamesz96/dotfiles) for both my personal and day job work.
+
+[Dotbot](https://github.com/anishathalye/dotbot) is a bootstrapping tool that makes it stupidly easy to replicate my environment on another device.
+
+
+# Final Words
+
+As I stated before, this is still a WIP.
