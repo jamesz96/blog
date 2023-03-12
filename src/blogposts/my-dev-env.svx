@@ -27,7 +27,6 @@ It doesn't take long to realise that you can never actually *finish* building yo
 
 Some of the main tools/components I have as part of my environment
 
-
 ## tmux
 
 My day to day workflows all take place on the command line inside a tmux session.
@@ -40,7 +39,8 @@ I primarily use sessions and windows, rarely panes.
 
 *Asciicast thumbnail is a bit borked - the tmux statusline is not rendered properly* 🤷
 
-___
+
+<br/>
 
 ## Alacritty
 
@@ -55,7 +55,8 @@ The OpenGL rendering is also a huge performance bonus.
 - https://alacritty.org/
 - https://jwilm.io/blog/announcing-alacritty/
 
-___
+
+<br/>
 
 ## Zsh
 
@@ -73,7 +74,8 @@ You probably know by now that I'm a simplicity enjoyer, so for the looks of my s
 
 *A customised variant of the 'pure' [powerline10k](https://github.com/romkatv/powerlevel10k) theme - see [theme config](https://github.com/jamesz96/dotfiles/blob/main/config/zsh/themes/p10k.zsh)*
 
-___
+
+<br/>
 
 ## Neovim
 
@@ -83,7 +85,8 @@ Writing only a couple of sentences about it here won't do it justice so I'll pro
 
 All I'll say for now is that I'm enormously grateful to the [Neovim](https://neovim.io/) team for creating something amazing.
 
-___
+
+<br/>
 
 ## vimwiki
 
@@ -105,7 +108,7 @@ Being able to use my personalised editor for writing anything from prose to simp
 When I'm at work and need to jot something down or need to look something up in my notes, it is gratifying knowing that I can do so with minimal disruption to my work.
 
 
-___
+<br/>
 
 ## Lazygit & Lazydocker
 
@@ -117,15 +120,10 @@ The tool completely eliminates some tedious parts of my git workflow and the CLI
 - https://github.com/jesseduffield/lazydocker
 
 
----
+<br/>
 
 ## Dotfiles & Dotbot
 
 I use [my dotfiles](https://github.com/jamesz96/dotfiles) for both my personal and day job work.
 
 [Dotbot](https://github.com/anishathalye/dotbot) is a bootstrapping tool that makes it stupidly easy to replicate my environment on another device.
-
-
-# Final Words
-
-As I stated before, this is still a WIP.
