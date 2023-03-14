@@ -1,15 +1,15 @@
 ---
 title: Starting a Blog
 date: 2023-01-01
-desc: Making my own blog is something I'd never thought I would do - yet, here I am doing just that.
+desc: Making my own blog is something I’d never thought I would do and yet, here I am.
 slug: starting_a_blog
 tags:
-  - Blog
+  - blog
 ---
 
 # Starting a Blog
 
-Making my own blog is something I'd never thought I would do - yet, here I am doing just that.
+Making my own blog is something I'd never thought I would do and yet, here I am.
 
 I've recently broken two preconceived ideas of mine when it comes to starting your own blog:
 - You need to write about things that others find interesting
