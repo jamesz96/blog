@@ -333,7 +333,6 @@
   </div>
   <div class="post__content">
     <svelte:component this={component} />
-    <h1>Comments</h1>
     <div class="comments">
       <Giscus
         id="comments"
