@@ -46,6 +46,7 @@
     font-family: var(--font-family);
     width: 80%;
     margin: 0 auto;
+    margin-top: 2rem;
     font-size: 1.125rem;
     text-align: left;
   }
@@ -112,7 +113,10 @@
   }
 
   .post__content :global(img) {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 
   .post__content :global(pre) {
@@ -318,8 +322,8 @@
   <h1 class="post__title">{title}</h1>
   <span class="post__date">
     Posted on
-    {new Date(date).toLocaleDateString("en-Gb", { weekday: "long" })},
-    {new Date(date).toLocaleDateString("en-GB", {
+    {new Date(date).toLocaleDateString("en-AU", { weekday: "long" })},
+    {new Date(date).toLocaleDateString("en-AU", {
       day: "numeric",
       month: "long",
       year: "numeric",
