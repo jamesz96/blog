@@ -1,0 +1,99 @@
+---
+title: Using ChatGPT for Language Learning
+date: 2023-03-17
+desc: You're very own private language tutor!
+slug: chat-gpt-language-learning
+tags:
+  - language
+  - ai
+---
+
+# 💤
+
+With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I have been kind of snoozing under a rock. It's not that I don't know what they are. Rather, it is that I haven't actively been trying to find ways to integrate them into my work or hobbies. 
+
+Sure, I've played around with them. I had my moments of fun and amusement. However, the novelty sort of wore off after a bit.
+
+It is undeniable these new technologies are incredibly powerful, but not having (or realising) a personal problem can be solved by using them, it is unsurprising that my attention would drift away.
+
+This was until I ran into a pretty severe obstacle in my hobby to learn some German 🇩🇪 .
+
+Most language learners will agree that the two most important factors for success is practice and feedback. Tutors and language schools provide both, but I'm not dedicated enough (yet) to fork out 💰 for them.
+This means I can practice all I want, but I won't ever receive feedback. Not good.
+
+Now, what could I *possibly* do or use to help me in my situation?
+
+*ironiccally-unironic-frustratingly-hopeless-situation-as-informercial.gif*
+
+
+# Let's See it in Action!
+
+To understand how I use ChatGPT, I probably need to explain what specific problems I'm having when learning.
+My progress with German so far allows me to read simple texts and follow very basic conversation, however I am really lacking in the constructing sentenc
+I've been studying on and off for a couple of months (nothing intensive), and I'm able to read simple texts and follow very basic conversation.
+
+However, when it comes to forming sentences when speaking and writing, I'm pretty much a sloth on the ground.
+The grammar is notorious for being uninviting to native English speakers, and from what I can tell it is very easy to make phrases that would sound unusual to natives.
+
+I 
+
+___
+
+In this sentence:
+
+"Heute hatte ich eine sehr interessante Idee"
+
+Why is "ich" in the 3rd position since it is the subject of the sentence?
+
+### Answer
+In the sentence "Heute hatte ich eine sehr interessante Idee," the subject is "ich" (I) and it appears in the third position, following the adverb "heute" (today) and the past tense verb "hatte" (had).
+
+In German, the word order of a sentence is often flexible, but the basic word order for a simple sentence is subject-verb-object (SVO). However, in the sentence you provided, there is no object, and the sentence begins with an adverb that modifies the verb. When an adverb is used at the beginning of a sentence, it is often followed by the verb, which means that the subject (in this case, "ich") must come after the verb. Therefore, the word order of this sentence is "Adverb - Verb - Subject - Predicate" (A-V-S-P).
+
+So, in this sentence, "ich" is in the third position because the adverb "heute" is occupying the first position, and the verb "hatte" is in the second position, followed by the subject "ich" and the predicate "eine sehr interessante Idee" (a very interesting idea).
+
+_____
+
+
+> Heute hatte ich eine sehr interessante Idee. "ChatGPT" könnte wahrscheinlich ein guter Deutschlehrer werden. Wenn ich meinen Tagebucheintrag geschrieben habe, kann ich "ChatGPT" benutzen, um meine Schreibfehler zu korrigieren. Ich kann "ChatGPT" auch benutzen, um mir meine Fehler auf Englisch zu erklären. Es ist billiger als ein richtiger Deutschlehrer. Ich hoffe, auf diese Weise mein Deutsch verbessern zu können.
+
+
+Errors:
+
+There are a few incorrect words or grammar usages in the original text:
+
+    "ich hat" should be "ich hatte" (incorrect conjugation of the verb "haben")
+    "ein sehr interessant Idee" should be "eine sehr interessante Idee" (adjective "interessant" needs to agree with the feminine noun "Idee")
+    "könntest" should be "könnte" (wrong verb form)
+    "benutzen mein" should be "meine Benutzen" (wrong word order and incorrect case for the possessive pronoun "meine")
+    "mir erklären mein Fehlrer" should be "mir meine Fehler erklären" (incorrect case for the possessive pronoun "meine" and wrong word order)
+    "Es ist biliger" should be "Es ist billiger" (incorrect spelling of the adjective "billig")
+
+The corrected text has addressed these errors.
+
+___
+
+> Can you modify the correct text to feel more like a native speaker, and also like a diary entry
+
+
+> Korrektur:
+
+Heute hatte ich eine interessante Idee. Ich dachte daran, dass "ChatGPT" möglicherweise ein guter Deutschlehrer sein könnte. Ich könnte es benutzen, um meine Schreibfehler in meinem Tagebucheintrag zu korrigieren. Es wäre auch praktisch, wenn ich "ChatGPT" nutzen könnte, um meine Fehler auf Englisch zu erklären. Immerhin ist es billiger als einen richtigen Deutschlehrer einzustellen. Ich hoffe, dass ich auf diese Weise mein Deutsch verbessern kann.
+
+Als ich über diese Idee nachdachte, fiel mir auf, dass ich in letzter Zeit mehr und mehr Zeit damit verbringe, auf Englisch zu kommunizieren. Ich vermisse das Schreiben auf Deutsch und die Herausforderungen, die damit verbunden sind. Ich denke, es wäre schön, wenn ich mein Deutsch verbessern könnte, um mich selbst herauszufordern und um mich an meine Heimat zu erinnern.
+
+Ich werde diese Idee im Hinterkopf behalten und "ChatGPT" als einen potentiellen Deutschlehrer in Betracht ziehen. Vielleicht ist es genau das, was ich brauche, um meine Sprachkenntnisse aufzufrischen.
+
+___
+
+
+# 4
+
+Why is "daran" used in this sentence?
+"Ich dachte daran, dass "ChatGPT" möglicherweise ein guter Deutschlehrer sein könnte."
+
+In the sentence "Ich dachte daran, dass 'ChatGPT' möglicherweise ein guter Deutschlehrer sein könnte," the word "daran" is a pronoun that refers back to something that was previously mentioned.
+
+The pronoun "daran" is formed by combining the preposition "an" (on, at) with the demonstrative pronoun "das" (that), and it means "about that" or "on that." In this sentence, "daran" refers back to the content of the previous thought or idea that the speaker was thinking about. It signals that the speaker is thinking about a specific idea or thought, rather than just a general thought.
+
+So, the sentence means "I was thinking about that 'ChatGPT' might be a good German teacher." The word "daran" specifies that the speaker was thinking about something specific (in this case, the idea of "ChatGPT" being a good German teacher) and not just having a general thought.
