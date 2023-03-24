@@ -88,7 +88,7 @@
         <div class="card__date">
           <Calendar className="date__icon" />
           <span class="date__label">
-            {new Date(date).toLocaleDateString("en-GB", {
+            {new Date(date).toLocaleDateString("en-AU", {
               day: "numeric",
               month: "long",
               year: "numeric",
