@@ -187,7 +187,7 @@
   }
 
   .post__content :global(ul li::before) {
-    content: "\203A";
+    content: "•";
     color: var(--color-main-text);
     font-size: 1.5rem;
     line-height: 1.5em;
