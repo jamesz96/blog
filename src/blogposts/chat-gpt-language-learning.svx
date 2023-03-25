@@ -1,99 +1,180 @@
 ---
 title: Using ChatGPT for Language Learning
 date: 2023-03-17
-desc: You're very own private language tutor!
+desc: ChatGPT is quite an effective self-language-learning tool
 slug: chat-gpt-language-learning
 tags:
   - language
   - ai
 ---
 
-# 💤
 
-With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I have been kind of snoozing under a rock. It's not that I don't know what they are. Rather, it is that I haven't actively been trying to find ways to integrate them into my work or hobbies. 
+With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I've been snoozing under a rock. Sure, I played around with them. I had my moments of fun and amusement. However, I haven't actively tried integrate them into my work or hobbies. That is until now.
 
-Sure, I've played around with them. I had my moments of fun and amusement. However, the novelty sort of wore off after a bit.
+I'm currently learning a bit of German for fun, and one thing the German language is notorious for is the grammar - especially for native English speakers.
+I have gone through a basic grammar textbook and have a grasp of the fundamentals however I am still very early on in my learning journey.
 
-It is undeniable these new technologies are incredibly powerful, but not having (or realising) a personal problem can be solved by using them, it is unsurprising that my attention would drift away.
+I make plenty of basic mistakes, and often find myself doubting the structure of the sentence I just strung together.
+This is where a language teacher, tutor, or someone I'm speaking with in the target language would normally step in by correcting me and explaining why.
 
-This was until I ran into a pretty severe obstacle in my hobby to learn some German 🇩🇪 .
+This is a crucial component missing from my learning feedback loop. 
 
-Most language learners will agree that the two most important factors for success is practice and feedback. Tutors and language schools provide both, but I'm not dedicated enough (yet) to fork out 💰 for them.
-This means I can practice all I want, but I won't ever receive feedback. Not good.
-
-Now, what could I *possibly* do or use to help me in my situation?
-
-*ironiccally-unironic-frustratingly-hopeless-situation-as-informercial.gif*
+I don't have any intention to join a language learning school for the time being, so I decided to give ChatGPT a go in helping me tackle this problem of mine.
 
 
-# Let's See it in Action!
-
-To understand how I use ChatGPT, I probably need to explain what specific problems I'm having when learning.
-My progress with German so far allows me to read simple texts and follow very basic conversation, however I am really lacking in the constructing sentenc
-I've been studying on and off for a couple of months (nothing intensive), and I'm able to read simple texts and follow very basic conversation.
-
-However, when it comes to forming sentences when speaking and writing, I'm pretty much a sloth on the ground.
-The grammar is notorious for being uninviting to native English speakers, and from what I can tell it is very easy to make phrases that would sound unusual to natives.
-
-I 
-
-___
-
-In this sentence:
-
-"Heute hatte ich eine sehr interessante Idee"
-
-Why is "ich" in the 3rd position since it is the subject of the sentence?
-
-### Answer
-In the sentence "Heute hatte ich eine sehr interessante Idee," the subject is "ich" (I) and it appears in the third position, following the adverb "heute" (today) and the past tense verb "hatte" (had).
-
-In German, the word order of a sentence is often flexible, but the basic word order for a simple sentence is subject-verb-object (SVO). However, in the sentence you provided, there is no object, and the sentence begins with an adverb that modifies the verb. When an adverb is used at the beginning of a sentence, it is often followed by the verb, which means that the subject (in this case, "ich") must come after the verb. Therefore, the word order of this sentence is "Adverb - Verb - Subject - Predicate" (A-V-S-P).
-
-So, in this sentence, "ich" is in the third position because the adverb "heute" is occupying the first position, and the verb "hatte" is in the second position, followed by the subject "ich" and the predicate "eine sehr interessante Idee" (a very interesting idea).
-
-_____
 
 
-> Heute hatte ich eine sehr interessante Idee. "ChatGPT" könnte wahrscheinlich ein guter Deutschlehrer werden. Wenn ich meinen Tagebucheintrag geschrieben habe, kann ich "ChatGPT" benutzen, um meine Schreibfehler zu korrigieren. Ich kann "ChatGPT" auch benutzen, um mir meine Fehler auf Englisch zu erklären. Es ist billiger als ein richtiger Deutschlehrer. Ich hoffe, auf diese Weise mein Deutsch verbessern zu können.
+# How I use ChatGPT as a Tutor
 
+One of the most recommended ways of practicing is keeping a diary in your target language.
+I have started doing this *almost* every day.
 
-Errors:
+For the level I am currently at, I've found this process to be very effective in helping me retain information and further expand my understanding.
+
+<br />
+
+## 1. Write Something
+
+For my diary entries, what I like to do is:
+- avoid looking up words, noun genders, declensions, case endings etc
+- exercise recall and correct grammar usage even if it means that I'm writing at the pace of a snail
+
+Before the next step, I highlight areas of my writing where I am unsure and take note of any questions I may have.
+
+<br />
+
+## 2. Corrections
+
+I now copy the contents into the ChatGPT web app and ask it to proofread and make any corrections.
+
+The prompt goes along the lines of:
+
+```
+Here is some text in German.
+
+{...}
+
+Help me identify and correct any grammtical mistakes and word usages.
+List out and explain the problems.
+```
+
+<details>
+  <summary>response</summary>
+
+Heute hatte ich eine sehr interessante Idee.
+"ChatGPT" könnte wahrscheinlich ein guter Deutschlehrer werden.
+Wenn ich meinen Tagebucheintrag geschrieben habe, kann ich "ChatGPT" benutzen, um meine Schreibfehler zu korrigieren.
+Ich kann "ChatGPT" auch benutzen, um mir meine Fehler auf Englisch zu erklären.
+Es ist billiger als ein richtiger Deutschlehrer.
+Ich hoffe, auf diese Weise mein Deutsch verbessern zu können.
 
 There are a few incorrect words or grammar usages in the original text:
 
-    "ich hat" should be "ich hatte" (incorrect conjugation of the verb "haben")
-    "ein sehr interessant Idee" should be "eine sehr interessante Idee" (adjective "interessant" needs to agree with the feminine noun "Idee")
-    "könntest" should be "könnte" (wrong verb form)
-    "benutzen mein" should be "meine Benutzen" (wrong word order and incorrect case for the possessive pronoun "meine")
-    "mir erklären mein Fehlrer" should be "mir meine Fehler erklären" (incorrect case for the possessive pronoun "meine" and wrong word order)
-    "Es ist biliger" should be "Es ist billiger" (incorrect spelling of the adjective "billig")
-
-The corrected text has addressed these errors.
-
-___
-
-> Can you modify the correct text to feel more like a native speaker, and also like a diary entry
+<br />
 
 
-> Korrektur:
+| Correction | Explanation |
+| --------| ----------- |
+| "ich hat" should be "ich hatte" | incorrect conjugation of the verb "haben" |
+| "ein sehr interessant Idee" should be "eine sehr interessante Idee" | adjective "interessant" needs to agree with the feminine noun "Idee" |
+| "könntest" should be "könnte" | wrong verb form |
+| "benutzen mein" should be "meine Benutzen" | wrong word order and incorrect case for the possessive pronoun "meine" |
+| "mir erklären mein Fehlrer" should be "mir meine Fehler erklären" | incorrect case for the possessive pronoun "meine" and wrong word order |
+| "Es ist biliger" should be "Es ist billiger" | incorrect spelling of the adjective "billig" |
 
-Heute hatte ich eine interessante Idee. Ich dachte daran, dass "ChatGPT" möglicherweise ein guter Deutschlehrer sein könnte. Ich könnte es benutzen, um meine Schreibfehler in meinem Tagebucheintrag zu korrigieren. Es wäre auch praktisch, wenn ich "ChatGPT" nutzen könnte, um meine Fehler auf Englisch zu erklären. Immerhin ist es billiger als einen richtigen Deutschlehrer einzustellen. Ich hoffe, dass ich auf diese Weise mein Deutsch verbessern kann.
+</details>
 
-Als ich über diese Idee nachdachte, fiel mir auf, dass ich in letzter Zeit mehr und mehr Zeit damit verbringe, auf Englisch zu kommunizieren. Ich vermisse das Schreiben auf Deutsch und die Herausforderungen, die damit verbunden sind. Ich denke, es wäre schön, wenn ich mein Deutsch verbessern könnte, um mich selbst herauszufordern und um mich an meine Heimat zu erinnern.
+Going through the listed issues I manually correct each error I have made.
+The list also helps me pinpoint areas where I need further study.
 
-Ich werde diese Idee im Hinterkopf behalten und "ChatGPT" als einen potentiellen Deutschlehrer in Betracht ziehen. Vielleicht ist es genau das, was ich brauche, um meine Sprachkenntnisse aufzufrischen.
-
-___
+Anything that remains unclear or I don't fully understand, I take note of them for the next step.
 
 
-# 4
+<br />
 
+## 3. Probing Questions
+
+This is where 
+
+Here are some examples I did:
+
+```
+In this sentence: 'Heute hatte ich eine sehr interessante Idee',
+why is 'ich' in the 3rd position if it is the subject of the sentence?
+```
+
+<details>
+  <summary>response</summary>
+
+In the sentence "Heute hatte ich eine sehr interessante Idee"
+the subject is "ich" (I) and it appears in the third position, following the adverb "heute" (today) and the past tense verb "hatte" (had).
+In German, the word order of a sentence is often flexible, but the basic word order for a simple sentence is subject-verb-object (SVO).
+However, in the sentence you provided, there is no object, and the sentence begins with an adverb that modifies the verb.
+When an adverb is used at the beginning of a sentence, it is often followed by the verb, which means that the subject (in this case, "ich") must come after the verb.
+Therefore, the word order of this sentence is "Adverb - Verb - Subject - Predicate" (A-V-S-P).
+ 
+So, in this sentence, "ich" is in the third position because the adverb "heute" is occupying the first position, and the verb "hatte" is in the second position, followed by the subject "ich" and the predicate "eine sehr interessante Idee" (a very interesting idea).
+</details>
+
+<br />
+
+```
 Why is "daran" used in this sentence?
 "Ich dachte daran, dass "ChatGPT" möglicherweise ein guter Deutschlehrer sein könnte."
+```
+
+<details>
+  <summary>response</summary>
 
 In the sentence "Ich dachte daran, dass 'ChatGPT' möglicherweise ein guter Deutschlehrer sein könnte," the word "daran" is a pronoun that refers back to something that was previously mentioned.
 
 The pronoun "daran" is formed by combining the preposition "an" (on, at) with the demonstrative pronoun "das" (that), and it means "about that" or "on that." In this sentence, "daran" refers back to the content of the previous thought or idea that the speaker was thinking about. It signals that the speaker is thinking about a specific idea or thought, rather than just a general thought.
 
 So, the sentence means "I was thinking about that 'ChatGPT' might be a good German teacher." The word "daran" specifies that the speaker was thinking about something specific (in this case, the idea of "ChatGPT" being a good German teacher) and not just having a general thought.
+</details>
+
+<br />
+
+```
+Why is "sein" needed in this sentence?
+```
+
+<details>
+  <summary>response</summary>
+
+The word "sein" in the sentence "Ich dachte daran, dass 'ChatGPT' möglicherweise ein guter Deutschlehrer sein könnte" is the infinitive form of the verb "to be" and is needed in this sentence because it is the auxiliary verb used to form the conditional mood.
+
+The sentence is expressing the possibility or uncertainty that "ChatGPT" could be a good German teacher, which is a hypothetical or uncertain condition. The conditional mood is formed by using the auxiliary verb "sein" with the past participle of the main verb "können" (can) to express the conditional possibility or uncertainty.
+
+In this sentence, the main verb "können" is in its past participle form "könnte" (could), and it is combined with the auxiliary verb "sein" to form the conditional "sein könnte" (could be). The entire phrase "ein guter Deutschlehrer sein könnte" (could be a good German teacher) is the predicate of the sentence, expressing the uncertain or hypothetical possibility that "ChatGPT" could be a good German teacher.
+</details>
+
+<br />
+
+## 4. How Would a Native Write It?
+
+An optional extra step would be to also ask ChatGPT to rewrite your initial text with the proficiency of a native speaker.
+The downside to this is that the resulting text may not resemble your initial text in the slightest!
+
+Ignoring the actual contents of the native level enhancement, here is a comparison I asked ChatGPT to do.
+
+```
+Can you list out and explain the differences between the initial text and this one
+```
+
+<details>
+  <summary>response</summary>
+
+  Here are the differences between the initial text and the modified one:
+
+<br />
+
+| Element | Difference |
+| ------- | ---------- |
+| Tone | The modified text has a more natural and conversational tone, suitable for a diary entry. The initial text had a more formal and stilted tone. |
+| Grammar and word choice | The modified text has corrected the errors in the original text and improved the sentence structure to sound more like a native speaker. |
+| Sentence length and complexity | The modified text has shorter sentences with simpler structures, making it easier to read and understand. |
+| Clarity of ideas | The modified text makes the writer's thoughts and intentions clearer and more understandable. For example, the writer explains why they want to improve their German and why they think using "ChatGPT" as a tutor could be helpful. |
+
+Overall, the modified text reads more like a diary entry written by a native speaker, with improved grammar, natural tone, and better clarity of ideas.
+</details>
