@@ -9,17 +9,19 @@ tags:
 ---
 
 
-With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I've been snoozing under a rock. Sure, I played around with them. I had my moments of fun and amusement. However, I haven't actively tried integrate them into my work or hobbies. That is until now.
+With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I've been snoozing under a rock. Sure, I played around with them. I had my moments of fun and amusement. However, I haven't actually tried to integrate them into my work or hobbies. That is until now.
 
 I'm currently learning a bit of German for fun, and one thing the German language is notorious for is the grammar - especially for native English speakers.
-I have gone through a basic grammar textbook and have a grasp of the fundamentals however I am still very early on in my learning journey.
+I have gone through some of the initial hoops (studying grammar fundamentals from a textbook) but I have yet to find myself confident stringing together sentences longer than six words.
 
-I make plenty of basic mistakes, and often find myself doubting the structure of the sentence I just strung together.
-This is where a language teacher, tutor, or someone I'm speaking with in the target language would normally step in by correcting me and explaining why.
+I make mistakes. I make a lot of them. At this stage, a lot of these are simple mistakes that I can pick out and fix myself.
+However, more and more I'm starting to encounter things that aren't so straight-forward. I cannot simply look these things up in my notes or a textbook. This initial learning stage will only become progressively harder too.
+
+This is where a language teacher, tutor, or someone I'm speaking with in the target language would help immensely.
 
 This is a crucial component missing from my learning feedback loop. 
 
-I don't have any intention to join a language learning school for the time being, so I decided to give ChatGPT a go in helping me tackle this problem of mine.
+I don't have the commitment to join a language learning school , so I decided to give ChatGPT a shot in helping my tackle this problem in the short term.
 
 
 
@@ -54,12 +56,14 @@ Here is some text in German.
 
 {...}
 
-Help me identify and correct any grammtical mistakes and word usages.
-List out and explain the problems.
+Help me identify and correct any grammatical mistakes and incorrect usage of words.
+List out and explain these problems.
 ```
 
 <details>
   <summary>response</summary>
+
+Corrected response:
 
 Heute hatte ich eine sehr interessante Idee.
 "ChatGPT" könnte wahrscheinlich ein guter Deutschlehrer werden.
@@ -68,9 +72,9 @@ Ich kann "ChatGPT" auch benutzen, um mir meine Fehler auf Englisch zu erklären.
 Es ist billiger als ein richtiger Deutschlehrer.
 Ich hoffe, auf diese Weise mein Deutsch verbessern zu können.
 
-There are a few incorrect words or grammar usages in the original text:
-
 <br />
+
+There are a few incorrect words or grammar usages in the original text:
 
 
 | Correction | Explanation |
@@ -94,9 +98,14 @@ Anything that remains unclear or I don't fully understand, I take note of them f
 
 ## 3. Probing Questions
 
-This is where 
+This part is where teachers, tutors, mentors, or literally anyone who knows more than you becomes invaluable.
+Having the immediate feedback so you can absorb things like a sponge.
+I believe this is the most essential part of learning anything. Asking the right questions in the initial stages.
 
-Here are some examples I did:
+I'm well aware that ChatGPT sometimes gets things wrong but, so do people. I do sometimes double check the validity of the responses.
+
+
+Continuing on with the writing practice, here are some questions I asked:
 
 ```
 In this sentence: 'Heute hatte ich eine sehr interessante Idee',
