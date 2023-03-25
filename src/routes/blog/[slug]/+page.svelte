@@ -46,6 +46,7 @@
     font-family: var(--font-family);
     width: 80%;
     margin: 0 auto;
+    margin-top: 2rem;
     font-size: 1.125rem;
     text-align: left;
   }
@@ -112,7 +113,10 @@
   }
 
   .post__content :global(img) {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 
   .post__content :global(pre) {
@@ -183,7 +187,7 @@
   }
 
   .post__content :global(ul li::before) {
-    content: "\203A";
+    content: "•";
     color: var(--color-main-text);
     font-size: 1.5rem;
     line-height: 1.5em;
@@ -318,14 +322,14 @@
   <h1 class="post__title">{title}</h1>
   <span class="post__date">
     Posted on
-    {new Date(date).toLocaleDateString("en-Gb", { weekday: "long" })},
-    {new Date(date).toLocaleDateString("en-GB", {
+    {new Date(date).toLocaleDateString("en-AU", { weekday: "long" })},
+    {new Date(date).toLocaleDateString("en-AU", {
       day: "numeric",
       month: "long",
       year: "numeric",
     })}
   </span>
-  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest An Edit</a>
+  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest an Edit</a>
   <div class="post__tags">
     {#each tags as tag}
       <div class="post__tag">{tag}</div>

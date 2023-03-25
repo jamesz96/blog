@@ -7,7 +7,7 @@ tags:
   - blog
 ---
 
-# Starting a Blog
+![](https://user-images.githubusercontent.com/30682722/227648225-1501b90e-b45c-416e-b8c6-2e314a295c1c.png)
 
 Making my own blog is something I'd never thought I would do and yet, here I am.
 
@@ -15,45 +15,45 @@ I've recently broken two preconceived ideas of mine when it comes to starting yo
 - You need to write about things that others find interesting
 - You need to (at the very least) be decent at writing
 
-### Interest
+<br/>
+
+## Interest
 
 Having a *successful* blog with hundreds of readers would indeed be a firm indication of interest, but what about your run-of-the-mill blog that is lucky to get even a single view in a month?
 
 I think most people couldn't care less if their blogs were being read. For them, their blogs serve as outlets for creativity or technical endeavours.
 This is probably something obvious, but for some reason it took me until now to realise this.
 
-"Success" is just "achieving a desired goal" and not everyone's goal is to have huge following.
+"Success" is just "achieving a desired goal" and not everyone's goal is to have a following.
 
-After some introspection, it was much easier to get the ball rolling.
+After a little introspection, it was much easier to get the ball rolling.
 
+<br />
 
-### Writing
+## Writing
 
 Being a decent writer undoubtedly goes a long way, but not being one shouldn't be a deterrent.
 
 If the motivation to share something is strong enough to overcome the lack of confidence or proficiency when it comes to writing, then great!
 
-If not and it is just shy of tipping the balance, then you have to either become better, or more confident at writing, or find some more motivation.
+If not and it is just shy of tipping the balance, then you have to either:
+- become a better writer
+- become more confident at writing
+- find some more motivation.
+
 Unfortunately, motivation isn't abundant for most people and it is not something you can just rustle up whenever.
 
-This leaves the first two options. Both can be somewhat addressed in these ways:
+This leaves the first two options. I think both can be somewhat addressed in these ways:
 
 - Be brave and **just write**, even if what comes out is absolutely abysmal
 - Read up on some well written blogs
 
-Writing does not come naturally to me, but I seem to have overcome this deterrent by simply doing these two things.
+Writing does not come naturally to me and I have a long way to go, but practicing these two things did help with the initial struggle.
 
 
 <br />
 
 ## What now?
 
-It was quite rough getting started but I think I've at least got some grip now on this prose writing, whereas at first I was clinging onto my dear life.
-I'm still hanging over the ledge though.
-
-Maybe after a couple of more posts I'll be in a more comfortable spot.
-
-It's not pleasant experiencing writing atrophy - if I can call it that.
-
-
+I have yet to find a stable footing in the world of writing and I suppose it is now just a matter of training it.
 

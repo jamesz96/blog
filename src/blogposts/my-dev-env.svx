@@ -8,8 +8,6 @@ tags:
   - env
 ---
 
-# Background
-
 For a long time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
 
 There is a stark contrast between having a *productive* environment and having the *perfect* environment.
@@ -22,8 +20,9 @@ I could say this for any development environment, but I've found that it is the 
 
 It doesn't take long to realise that you can never actually *finish* building your environment, it will always be a WIP.
 
+![](https://user-images.githubusercontent.com/30682722/227663043-df6b8017-1dd5-420f-9149-e8ab1687f516.PNG)
 
-# The Good Stuff
+# The Rundown
 
 Some of the main tools/components I have as part of my environment.
 
@@ -136,5 +135,4 @@ The [dotbot](https://github.com/anishathalye/dotbot) tool makes it reasonably ea
 # Final Words
 
 There are still so many things I want to improve for my setup, but I've decided to take it slow for now.
-
 I'm in it for the long haul anyway.
