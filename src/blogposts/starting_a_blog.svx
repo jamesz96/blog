@@ -7,7 +7,7 @@ tags:
   - blog
 ---
 
-![](https://user-images.githubusercontent.com/30682722/227648225-1501b90e-b45c-416e-b8c6-2e314a295c1c.png)
+![](https://user-images.githubusercontent.com/30682722/227648225-1501b90e-b45c-416e-b8c6-2e314a295c1c.png "Midjourney prompt: 'man in greek thinker pose, fiddling with pen, geometric lines, black and white pencil, scraps of draft paper tossed aside, full body'")
 
 Making my own blog is something I'd never thought I would do and yet, here I am.
 
