@@ -329,7 +329,7 @@
       year: "numeric",
     })}
   </span>
-  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest An Edit</a>
+  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest an Edit</a>
   <div class="post__tags">
     {#each tags as tag}
       <div class="post__tag">{tag}</div>
