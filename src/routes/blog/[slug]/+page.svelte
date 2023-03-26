@@ -56,6 +56,21 @@
     font-size: 1.125rem;
   }
 
+  .post__content :global(details) {
+    line-height: 1.75em;
+    cursor: pointer;
+  }
+
+  .post__content :global(details p) {
+    padding-left: 1.5rem;
+    color: var(--color-main-accent);
+  }
+  
+  .post__content :global(details summary:hover) {
+    color: var(--color-main-accent);
+    user-select: none;
+  }
+
   :global(.post__content > * + *) {
     margin-top: 1rem;
   }
@@ -179,7 +194,18 @@
     list-style: none;
   }
 
+  .post__content :global(ol) {
+    list-style: decimal inside;
+  }
+
   .post__content :global(ul li) {
+    position: relative;
+    font-size: 1.125rem;
+    line-height: 1.75em;
+    padding-left: 1rem;
+  }
+
+  .post__content :global(ol li) {
     position: relative;
     font-size: 1.125rem;
     line-height: 1.75em;
@@ -205,7 +231,7 @@
 
   .post__content :global(table) {
     width: 100%;
-    border-radius: 0.2rem;
+    border-radius: 2rem;
     overflow: hidden;
   }
 
@@ -221,9 +247,10 @@
   }
 
   .post__content :global(table th) {
-    background-color: var(--color-main-accent);
-    color: var(--color-alt-bg);
+    background-color: var(--color-alt-bg);
+    color: var(--color-main-text);
     font-size: 1.25rem;
+    text-align: center;
   }
 
   .post__content :global(table th),
@@ -241,11 +268,11 @@
   }
 
   .post__content :global(blockquote p::before) {
-    content: "“	";
+    content: "";
   }
 
   .post__content :global(blockquote p::after) {
-    content: " ”";
+    content: "";
   }
 
   .post__content :global(h1 a),

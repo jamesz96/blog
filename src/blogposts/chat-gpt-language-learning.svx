@@ -1,0 +1,266 @@
+---
+title: ChatGPT and Language Learning
+date: 2023-03-17
+desc: ChatGPT is quite an effective self-language-learning tool
+slug: chat-gpt-language-learning
+tags:
+  - language
+  - ai
+---
+
+
+With all the attention AI (Midjourney, ChatGPT, etc) has been getting recently, I have to admit that I've been kind of asleep at the wheel. Sure, I have played around with them. I had my moments of fun and amusement. However, I haven't actually tried to integrate them into my work or hobbies until very recently.
+
+I'm currently learning a bit of German for fun, and one thing the German language is notorious for is the grammar - especially for native English speakers.
+I have gone through some of the initial hoops (studying grammar fundamentals from a textbook) but I have yet to find myself confident stringing together sentences longer than six words.
+
+I make mistakes. I make a lot of them. At this stage, a lot of these are simple mistakes which I can pick out and fix myself.
+However, more and more I'm starting to encounter things that aren't so straight-forward. I cannot simply look these things up in my notes or a textbook. This stage of learning will only become progressively harder later on.
+
+This is where a language teacher, tutor, or someone I'm speaking with in the target language would help immensely. It is a crucial component missing from my learning feedback loop. 
+
+I'm refraining from taking language lessons for the time being as I don't have the commitment for it yet.
+So, here lies my decision in testing the waters with ChatGPT - I really hope it can be a substitute!
+
+
+
+# Use ChatGPT as a Private Tutor
+
+One of the most recommended ways of practicing is keeping a diary in your target language.
+I have started doing this *almost* every day.
+
+For the level I am currently at, I've found this process to be very effective in helping me retain information and further expand my understanding.
+
+<br />
+
+## 1. Write Something
+
+For my diary entries, what I like to do is:
+- avoid looking up words, noun genders, declensions, case endings etc
+- exercise recall and correct grammar usage even if it means that I'm writing at the pace of a snail
+
+Before the next step, I highlight areas of my writing where I am unsure and take note of any questions I may have.
+
+<br />
+
+## 2. Corrections
+
+I now copy the contents into the ChatGPT web app and ask it to proofread and make any corrections.
+
+The prompt goes along the lines of:
+
+```
+Here is some text in German.
+
+{...}
+
+Help me identify and correct any grammatical mistakes and incorrect usage of words.
+List out and explain these problems.
+```
+
+<details>
+  <summary>response</summary>
+
+Corrected response:
+
+Heute hatte ich eine sehr interessante Idee.
+"ChatGPT" könnte wahrscheinlich ein guter Deutschlehrer werden.
+Wenn ich meinen Tagebucheintrag geschrieben habe, kann ich "ChatGPT" benutzen, um meine Schreibfehler zu korrigieren.
+Ich kann "ChatGPT" auch benutzen, um mir meine Fehler auf Englisch zu erklären.
+Es ist billiger als ein richtiger Deutschlehrer.
+Ich hoffe, auf diese Weise mein Deutsch verbessern zu können.
+
+<br />
+
+There are a few incorrect words or grammar usages in the original text:
+
+
+| Correction | Explanation |
+| --------| ----------- |
+| "ich hat" should be "ich hatte" | incorrect conjugation of the verb "haben" |
+| "ein sehr interessant Idee" should be "eine sehr interessante Idee" | adjective "interessant" needs to agree with the feminine noun "Idee" |
+| "könntest" should be "könnte" | wrong verb form |
+| "benutzen mein" should be "meine Benutzen" | wrong word order and incorrect case for the possessive pronoun "meine" |
+| "mir erklären mein Fehlrer" should be "mir meine Fehler erklären" | incorrect case for the possessive pronoun "meine" and wrong word order |
+| "Es ist biliger" should be "Es ist billiger" | incorrect spelling of the adjective "billig" |
+
+</details>
+
+Going through the listed issues I manually correct each error I have made.
+The list also helps me pinpoint areas where I need further study.
+
+Anything that remains unclear or I don't fully understand, I take note of them for the next step.
+
+
+<br />
+
+## 3. Probing Questions
+
+This part is where teachers, tutors, mentors, or literally anyone who knows more than you becomes invaluable.
+Having the immediate feedback so you can absorb things like a sponge.
+I believe this is the most essential part of learning anything. Asking the right questions in the initial stages.
+
+I'm well aware that ChatGPT sometimes gets things wrong but, so do people. I do sometimes double check the validity of the responses.
+
+
+Continuing on with the writing practice, here are some questions I asked:
+
+```
+In this sentence: 'Heute hatte ich eine sehr interessante Idee',
+why is 'ich' in the 3rd position if it is the subject of the sentence?
+```
+
+<details>
+  <summary>response</summary>
+
+In the sentence "Heute hatte ich eine sehr interessante Idee"
+the subject is "ich" (I) and it appears in the third position, following the adverb "heute" (today) and the past tense verb "hatte" (had).
+In German, the word order of a sentence is often flexible, but the basic word order for a simple sentence is subject-verb-object (SVO).
+However, in the sentence you provided, there is no object, and the sentence begins with an adverb that modifies the verb.
+When an adverb is used at the beginning of a sentence, it is often followed by the verb, which means that the subject (in this case, "ich") must come after the verb.
+Therefore, the word order of this sentence is "Adverb - Verb - Subject - Predicate" (A-V-S-P).
+ 
+So, in this sentence, "ich" is in the third position because the adverb "heute" is occupying the first position, and the verb "hatte" is in the second position, followed by the subject "ich" and the predicate "eine sehr interessante Idee" (a very interesting idea).
+</details>
+
+<br />
+
+```
+Why is "daran" used in this sentence?
+"Ich dachte daran, dass "ChatGPT" möglicherweise ein guter Deutschlehrer sein könnte."
+```
+
+<details>
+  <summary>response</summary>
+
+In the sentence "Ich dachte daran, dass 'ChatGPT' möglicherweise ein guter Deutschlehrer sein könnte," the word "daran" is a pronoun that refers back to something that was previously mentioned.
+
+The pronoun "daran" is formed by combining the preposition "an" (on, at) with the demonstrative pronoun "das" (that), and it means "about that" or "on that." In this sentence, "daran" refers back to the content of the previous thought or idea that the speaker was thinking about. It signals that the speaker is thinking about a specific idea or thought, rather than just a general thought.
+
+So, the sentence means "I was thinking about that 'ChatGPT' might be a good German teacher." The word "daran" specifies that the speaker was thinking about something specific (in this case, the idea of "ChatGPT" being a good German teacher) and not just having a general thought.
+</details>
+
+<br />
+
+```
+Why is "sein" needed in this sentence?
+```
+
+<details>
+  <summary>response</summary>
+
+The word "sein" in the sentence "Ich dachte daran, dass 'ChatGPT' möglicherweise ein guter Deutschlehrer sein könnte" is the infinitive form of the verb "to be" and is needed in this sentence because it is the auxiliary verb used to form the conditional mood.
+
+The sentence is expressing the possibility or uncertainty that "ChatGPT" could be a good German teacher, which is a hypothetical or uncertain condition. The conditional mood is formed by using the auxiliary verb "sein" with the past participle of the main verb "können" (can) to express the conditional possibility or uncertainty.
+
+In this sentence, the main verb "können" is in its past participle form "könnte" (could), and it is combined with the auxiliary verb "sein" to form the conditional "sein könnte" (could be). The entire phrase "ein guter Deutschlehrer sein könnte" (could be a good German teacher) is the predicate of the sentence, expressing the uncertain or hypothetical possibility that "ChatGPT" could be a good German teacher.
+</details>
+
+<br />
+
+## 4. How Would a Native Write It?
+
+An optional extra step would be to also ask ChatGPT to rewrite your initial text with the proficiency of a native speaker.
+The downside to this is that the resulting text may not resemble your initial text in the slightest!
+
+Ignoring the actual contents of the native level enhancement, here is a comparison I asked ChatGPT to do.
+
+```
+Can you list out and explain the differences between the initial text and this one
+```
+
+<details>
+  <summary>response</summary>
+
+  Here are the differences between the initial text and the modified one:
+
+<br />
+
+| Element | Difference |
+| ------- | ---------- |
+| Tone | The modified text has a more natural and conversational tone, suitable for a diary entry. The initial text had a more formal and stilted tone. |
+| Grammar and word choice | The modified text has corrected the errors in the original text and improved the sentence structure to sound more like a native speaker. |
+| Sentence length and complexity | The modified text has shorter sentences with simpler structures, making it easier to read and understand. |
+| Clarity of ideas | The modified text makes the writer's thoughts and intentions clearer and more understandable. For example, the writer explains why they want to improve their German and why they think using "ChatGPT" as a tutor could be helpful. |
+
+Overall, the modified text reads more like a diary entry written by a native speaker, with improved grammar, natural tone, and better clarity of ideas.
+</details>
+
+<br />
+
+
+## 5. Exercises
+
+For additional study, you can even ask for homework exercises!
+
+```
+Test my German adjective declension usage by having me fill in missing words from sentences.
+Don't provide gender hints. Don't provide answers.
+```
+
+<details>
+  <summary>response 1</summary>
+
+  Sure, I can do that! Here are some sentences with missing adjectives. Fill in the correct adjectives, including the correct declension ending, for each sentence. I won't provide any gender hints or answers, so make sure to keep that in mind as you complete the exercise.
+
+      <br />
+
+      1 - Der _____ Mann geht in _____ Haus.
+
+      2 - Die _____ Frau isst einen _____ Apfel.
+
+      3 - Das _____ Kind spielt mit dem _____ Ball.
+
+      4 - Die _____ Studenten haben einen _____ Tag.
+
+      5 - Ein _____ Hund läuft auf der _____ Straße.
+
+      <br />
+
+  Good luck!
+</details>
+
+<br />
+
+```
+Are these correct? List out any errors.
+
+1. Der große Mann geht in das Haus.
+2. Die nette Frau isst einen kleinen Apfel.
+3. Das junge Kind spielt mit dem roten Ball.
+4. Die klugen Studenten haben einen freie Tag.
+5. Ein schwarzer Hund läuft auf der lauten Straße
+```
+<details>
+  <summary>response 2</summary>
+
+  Sure, here's the corrected version of each sentence with the error highlighted:
+
+  <br />
+
+  1 - Der große Mann geht in das Haus. 
+
+  2 - Die nette Frau isst einen kleinen Apfel.
+
+  3 - Das junge Kind spielt mit dem roten Ball.
+
+  4 - Die klugen Studenten haben einen freien Tag. (The correct form of the adjective is "freien" in the accusative case.)
+
+  5 - Ein schwarzer Hund läuft auf der lauten Straße
+
+  <br />
+
+  Just a quick explanation of the correction:
+
+  4 - "frei" should have the -en ending to match "Tag", which is masculine and in the accusative case. Also, "frei" should be "freien" because "einen" is the accusative article for masculine nouns.
+
+
+</details>
+
+<br />
+
+
+With what I've seen so far, this has far exceeded my expectations.
+I hear GPT-4 is right around the corner, and it outperforms ChatGPT in almost every way.
+
+I cannot wait to try it out!
