@@ -1,5 +1,5 @@
 ---
-title: Using ChatGPT for Language Learning
+title: ChatGPT and Language Learning
 date: 2023-03-17
 desc: ChatGPT is quite an effective self-language-learning tool
 slug: chat-gpt-language-learning
@@ -9,24 +9,22 @@ tags:
 ---
 
 
-With all the recent craze going around with AI (Midjourney, ChatGPT etc) I have to admit that I've been snoozing under a rock. Sure, I played around with them. I had my moments of fun and amusement. However, I haven't actually tried to integrate them into my work or hobbies. That is until now.
+With all the attention AI (Midjourney, ChatGPT, etc) has been getting recently, I have to admit that I've been kind of asleep at the wheel. Sure, I have played around with them. I had my moments of fun and amusement. However, I haven't actually tried to integrate them into my work or hobbies until very recently.
 
 I'm currently learning a bit of German for fun, and one thing the German language is notorious for is the grammar - especially for native English speakers.
 I have gone through some of the initial hoops (studying grammar fundamentals from a textbook) but I have yet to find myself confident stringing together sentences longer than six words.
 
-I make mistakes. I make a lot of them. At this stage, a lot of these are simple mistakes that I can pick out and fix myself.
-However, more and more I'm starting to encounter things that aren't so straight-forward. I cannot simply look these things up in my notes or a textbook. This initial learning stage will only become progressively harder too.
+I make mistakes. I make a lot of them. At this stage, a lot of these are simple mistakes which I can pick out and fix myself.
+However, more and more I'm starting to encounter things that aren't so straight-forward. I cannot simply look these things up in my notes or a textbook. This stage of learning will only become progressively harder later on.
 
-This is where a language teacher, tutor, or someone I'm speaking with in the target language would help immensely.
+This is where a language teacher, tutor, or someone I'm speaking with in the target language would help immensely. It is a crucial component missing from my learning feedback loop. 
 
-This is a crucial component missing from my learning feedback loop. 
-
-I don't have the commitment to join a language learning school , so I decided to give ChatGPT a shot in helping my tackle this problem in the short term.
-
+I'm refraining from taking language lessons for the time being as I don't have the commitment for it yet.
+So, here lies my decision in testing the waters with ChatGPT - I really hope it can be a substitute!
 
 
 
-# How I use ChatGPT as a Tutor
+# Use ChatGPT as a Private Tutor
 
 One of the most recommended ways of practicing is keeping a diary in your target language.
 I have started doing this *almost* every day.
@@ -187,3 +185,82 @@ Can you list out and explain the differences between the initial text and this o
 
 Overall, the modified text reads more like a diary entry written by a native speaker, with improved grammar, natural tone, and better clarity of ideas.
 </details>
+
+<br />
+
+
+## 5. Exercises
+
+For additional study, you can even ask for homework exercises!
+
+```
+Test my German adjective declension usage by having me fill in missing words from sentences.
+Don't provide gender hints. Don't provide answers.
+```
+
+<details>
+  <summary>response 1</summary>
+
+  Sure, I can do that! Here are some sentences with missing adjectives. Fill in the correct adjectives, including the correct declension ending, for each sentence. I won't provide any gender hints or answers, so make sure to keep that in mind as you complete the exercise.
+
+      <br />
+
+      1 - Der _____ Mann geht in _____ Haus.
+
+      2 - Die _____ Frau isst einen _____ Apfel.
+
+      3 - Das _____ Kind spielt mit dem _____ Ball.
+
+      4 - Die _____ Studenten haben einen _____ Tag.
+
+      5 - Ein _____ Hund läuft auf der _____ Straße.
+
+      <br />
+
+  Good luck!
+</details>
+
+<br />
+
+```
+Are these correct? List out any errors.
+
+1. Der große Mann geht in das Haus.
+2. Die nette Frau isst einen kleinen Apfel.
+3. Das junge Kind spielt mit dem roten Ball.
+4. Die klugen Studenten haben einen freie Tag.
+5. Ein schwarzer Hund läuft auf der lauten Straße
+```
+<details>
+  <summary>response 2</summary>
+
+  Sure, here's the corrected version of each sentence with the error highlighted:
+
+  <br />
+
+  1 - Der große Mann geht in das Haus. 
+
+  2 - Die nette Frau isst einen kleinen Apfel.
+
+  3 - Das junge Kind spielt mit dem roten Ball.
+
+  4 - Die klugen Studenten haben einen freien Tag. (The correct form of the adjective is "freien" in the accusative case.)
+
+  5 - Ein schwarzer Hund läuft auf der lauten Straße
+
+  <br />
+
+  Just a quick explanation of the correction:
+
+  4 - "frei" should have the -en ending to match "Tag", which is masculine and in the accusative case. Also, "frei" should be "freien" because "einen" is the accusative article for masculine nouns.
+
+
+</details>
+
+<br />
+
+
+With what I've seen so far, this has far exceeded my expectations.
+I hear GPT-4 is right around the corner, and it outperforms ChatGPT in almost every way.
+
+I cannot wait to try it out!
