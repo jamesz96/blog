@@ -6,6 +6,17 @@
     justify-items: left;
   }
 
+  .root span {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .root span div {
+    color: var(--color-alt-text);
+    font-size: small;
+  }
+
   .content {
     width: 100%;
     margin-top: 1rem;
@@ -15,10 +26,18 @@
 
 <script lang="ts">
   export let title: string;
+  export let subtitle: string | null = null;
 </script>
 
 <section class="root">
-  <h2>{title}</h2>
+  {#if subtitle}
+    <span>
+      <h2>{title}</h2>
+      <div>{subtitle}</div>
+    </span>
+  {:else}
+    <h2>{title}</h2>
+  {/if}
   <div class="content">
     <slot />
   </div>
