@@ -1,7 +1,7 @@
 ---
 title: ChatGPT and Language Learning
 date: 2023-03-17
-desc: ChatGPT is quite an effective self-language-learning tool
+desc: ChatGPT is quite the effective language tutor
 slug: chat-gpt-language-learning
 tags:
   - language
@@ -20,20 +20,20 @@ However, more and more I'm starting to encounter things that aren't so straight-
 This is where a language teacher, tutor, or someone I'm speaking with in the target language would help immensely. It is a crucial component missing from my learning feedback loop. 
 
 I'm refraining from taking language lessons for the time being as I don't have the commitment for it yet.
-So, here lies my decision in testing the waters with ChatGPT - I really hope it can be a substitute!
+So, here lies my decision to test the waters with ChatGPT. I really hope it can be a substitute.
 
 
 
 # Use ChatGPT as a Private Tutor
 
-One of the most recommended ways of practicing is keeping a diary in your target language.
+One of the recommended ways of practicing is keeping a diary in your target language.
 I have started doing this *almost* every day.
 
-For the level I am currently at, I've found this process to be very effective in helping me retain information and further expand my understanding.
+For the level I am currently at, I've found this process to be very effective in helping me apply things I've learned as well as to help me identify areas where I struggle.
 
 <br />
 
-## 1. Write Something
+## 1. Write Something, Anything
 
 For my diary entries, what I like to do is:
 - avoid looking up words, noun genders, declensions, case endings etc
