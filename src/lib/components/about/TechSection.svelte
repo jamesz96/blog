@@ -61,7 +61,7 @@
   ]
 </script>
 
-<Section title="Tech">
+<Section title="Tech" subtitle="I have worked with or dabbled in">
   <div class="table">
     <TechSectionPart label="languages" items={languages} />
     <TechSectionPart label="frontend" items={frontEndItems} />

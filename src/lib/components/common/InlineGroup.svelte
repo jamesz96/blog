@@ -1,7 +1,7 @@
 <style>
   .root {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 </style>
 
