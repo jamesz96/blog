@@ -3,6 +3,7 @@
   <svelte:component this={Icon}
     width={dimensions.width}
     height={dimensions.height}
+    style="fill: var(--color-alt-text); transition: all ease-out 0.1s"
   />
 </InlineGroup>
 
