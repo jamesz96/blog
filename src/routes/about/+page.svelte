@@ -47,7 +47,9 @@
           For me, learning things as I go is the name of the game.
           <br />
           Whether it being on-the-job or letting my curiosity take the driver's seat.
-          <br />
+        </p>
+        <br />
+        <p>
           It has been great fun so far.
         </p>
       </body>
