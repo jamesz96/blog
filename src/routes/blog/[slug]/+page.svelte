@@ -369,7 +369,7 @@
         id="comments"
         category="General"
         categoryId="DIC_kwDOGmZlC84CRm4F"
-        repo="jamesz96/blog"
+        repo="jamszh/blog"
         repoId="R_kgDOGmZlCw"
         reactionsEnabled="1"
         lang="en"
@@ -390,5 +390,5 @@
 
   const component = data.component
   const { title, date, desc, tags, slug } = data.meta
-  const editLink = `https://github.com/jamesz96/blog/tree/main/src/blogposts/${slug}.svx`
+  const editLink = `https://github.com/jamszh/blog/tree/main/src/blogposts/${slug}.svx`
 </script>

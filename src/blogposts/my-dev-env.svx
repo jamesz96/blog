@@ -62,7 +62,7 @@ I primarily use sessions and windows, rarely panes.
 
 A very powerful shell with many new features and differences to bash.
 
-My [zsh config](https://github.com/jamesz96/dotfiles/tree/main/config/zsh) is very simple and I intend to keep it that way.
+My [zsh config](https://github.com/jamszh/dotfiles/tree/main/config/zsh) is very simple and I intend to keep it that way.
 - I only have a few basic zsh functions, aliases, and bindings at the moment
 - A simple (but primitive) way of loading things dynamically
 
@@ -74,7 +74,7 @@ My shell looks like this:
 
 ![powerline-shell-theme](https://user-images.githubusercontent.com/30682722/224516331-cf996c17-3fb6-47e7-bf2b-f98be6c8e5b4.png)
 
-*A customised variant of the 'pure' [powerline10k](https://github.com/romkatv/powerlevel10k) theme - see [theme config](https://github.com/jamesz96/dotfiles/blob/main/config/zsh/themes/p10k.zsh)*
+*A customised variant of the 'pure' [powerline10k](https://github.com/romkatv/powerlevel10k) theme - see [theme config](https://github.com/jamszh/dotfiles/blob/main/config/zsh/themes/p10k.zsh)*
 
 
 <br/>
@@ -125,7 +125,7 @@ The tool completely eliminates some tedious parts of my git workflow and the CLI
 
 ## Dotfiles & Dotbot
 
-I use [my dotfiles](https://github.com/jamesz96/dotfiles) for both my personal and day job work.
+I use [my dotfiles](https://github.com/jamszh/dotfiles) for both my personal and day job work.
 The [dotbot](https://github.com/anishathalye/dotbot) tool makes it reasonably easy (though still a bit iffy) to replicate my environment on another device.
 
 

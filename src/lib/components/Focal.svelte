@@ -37,10 +37,10 @@
   </style>
 
   <section class="focal">
-    <a href="https://github.com/jamesz96">
+    <a href="https://github.com/jamszh">
       <img
         class="focal__pict"
-        src="https://avatars.githubusercontent.com/u/30682722?v=4"
+        src="https://github.com/jamszh.png"
         alt="github profile"
       />
     </a>
