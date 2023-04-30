@@ -1,0 +1,33 @@
+---
+title: Writing More Often
+date: 2023-04-30
+desc: I'm going to try a different approach when it comes to writing
+slug: writing-more-often
+tags:
+  - blog
+  - musing
+  - writing
+---
+
+I haven't been as active as I'd like to with this blog (it has been more than a month since my last post)
+and I think it probably boils down to the way I'm approaching the writing part.
+
+My posts so far have been quite lengthy. They take awhile to get out and leave me sort of mentally
+depleted. When I write, I have a bad habit of writing meticulously. I try to write the best I can - everytime.
+This may seem like a good thing. It is, but I think it applies only if you are a good writer.
+
+I'm not a good writer. So this tendency can make writing blogposts very tedious and exhausting.
+
+Here are some examples I've caught myself doing:
+- Aggressively searching for that "perfect" word to express my idea
+- rewriting the same paragraph over and over, trying to make it just right.
+
+
+![](https://user-images.githubusercontent.com/30682722/235347912-c27073ef-b6e7-4cf2-8d86-e220ccbfa2b3.png "when the dumpling is just right")
+
+
+Maybe these are just symptoms of writer's block. Maybe I just haven't reached a level of proficiency I'm comfortable with yet.
+
+Regardless, I'm going to be trying something different. Starting from now, I'm keeping my posts small (maybe even bite-sized). It should reduce the friction when it comes to putting my musings in writing.
+
+
