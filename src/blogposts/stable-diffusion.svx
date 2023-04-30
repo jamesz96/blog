@@ -1,0 +1,16 @@
+---
+title: Playing Around with Stable Diffusion
+date: 2023-04-30
+desc: Dipping my toes in the generative AI space
+slug: stable-diffusion
+tags:
+  - ai
+  - art
+  - stable-diffusion
+---
+
+> Just a random side note. I haven't been as active as I'd like to with this blog
+> (it has been more than a month since my last post) and I think it is probably because
+> of how I'm writing. The length of my past posts are long. They take while to get out and also leave
+> me mentally depleted. From this post onwards, I'm going to write much shorter posts.
+> Hopefully, it will incentivise me to write more often.
