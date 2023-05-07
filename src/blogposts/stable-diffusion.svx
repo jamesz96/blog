@@ -1,7 +1,7 @@
 ---
 title: Playing Around with Stable Diffusion
 date: 2023-05-06
-desc: Dipping my toes into txt2img
+desc: Dipping my toes into deep learning and txt2img
 slug: stable-diffusion
 tags:
   - ai
