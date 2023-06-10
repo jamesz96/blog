@@ -27,10 +27,8 @@
   }
 
   .card__desc {
-    border-top: 0.0625rem var(--color-borders) dotted;
     font-family: var(--font-family);
     color: var(--color-alt-text);
-    margin-top: 0.5rem;
     padding-top: 0.5rem;
     overflow: hidden;
     grid-column-start: span 2;
@@ -76,8 +74,8 @@
   }
 
   @media only screen and (min-width: 480px) {
-    .card__details:hover {
-      border: 0.05rem dotted;
+    .card:hover {
+      filter: brightness(1.2);
     }
   }
   </style>
