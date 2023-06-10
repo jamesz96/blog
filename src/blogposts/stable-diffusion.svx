@@ -33,25 +33,41 @@ I'm unsure as to whether I should fork out some 💰  for a more powerful GPU or
 
 I'll probably just wait and see until after I finish the fast.ai course.
 
+___
 
-### If you've made it this far, here's a little showcase 😉
+## <a name="showcase"></a>If you've made it this far, here's a little showcase 😉
 
-![1](https://user-images.githubusercontent.com/30682722/236651450-e8757657-9960-49f4-bd3a-e6b9087ebb85.png)
+#### Interior Design?
+![](https://user-images.githubusercontent.com/30682722/236651450-e8757657-9960-49f4-bd3a-e6b9087ebb85.png)
 
-![2](https://user-images.githubusercontent.com/30682722/236651457-450c221f-769a-46a6-a9ff-70ccd452d826.png)
+#### Civil Engineering Marvels
+![](https://user-images.githubusercontent.com/30682722/244840939-69d23fdd-8ef4-4306-b128-c699194f2d82.png)
 
-![3](https://user-images.githubusercontent.com/30682722/236651429-2c62f5e8-cca7-44f9-888c-0118463c985d.png)
+![](https://user-images.githubusercontent.com/30682722/244841063-cf051a6c-9471-4da1-b2aa-f079acdc7f0d.png)
 
-![4](https://user-images.githubusercontent.com/30682722/236651438-eddb96d8-1c60-417d-8aff-abb3e5ad8ccb.png)
+#### [メカ](https://en.wikipedia.org/wiki/Mecha)
+![](https://user-images.githubusercontent.com/30682722/236651457-450c221f-769a-46a6-a9ff-70ccd452d826.png)
 
-![5](https://user-images.githubusercontent.com/30682722/236655559-92769a8e-3608-4de5-ba81-e0490ec0130d.png)
+![](https://user-images.githubusercontent.com/30682722/236651429-2c62f5e8-cca7-44f9-888c-0118463c985d.png)
 
-![6](https://user-images.githubusercontent.com/30682722/236654564-a412f74d-b2d9-479d-91c5-47d931121b73.png)
+![](https://user-images.githubusercontent.com/30682722/236651438-eddb96d8-1c60-417d-8aff-abb3e5ad8ccb.png)
 
-![7](https://user-images.githubusercontent.com/30682722/236652024-c8d24314-5521-4a32-af10-98e309365bc8.png)
+#### The Unknown
+![](https://user-images.githubusercontent.com/30682722/244841051-ca119204-6626-41fb-9427-938b3d8a59a9.png)
 
-![8](https://user-images.githubusercontent.com/30682722/236651476-8b3bdf5a-b6d3-4ec8-9b8b-8b11640dfcd9.png)
+![](https://user-images.githubusercontent.com/30682722/244843948-783e819d-8cfc-44e5-a880-481f23da29af.png)
 
-![9](https://user-images.githubusercontent.com/30682722/236651960-0c17aba3-e91f-471c-876f-21ac8ab9e9ad.png)
+#### Sharp
+![](https://user-images.githubusercontent.com/30682722/244841072-e30a043f-bfd2-4483-a3e8-dd0a68906216.png)
 
-![10](https://user-images.githubusercontent.com/30682722/236654491-bba6e8aa-3e3d-417c-a2c1-d7f46ede1998.png)
+#### Abstract
+![](https://user-images.githubusercontent.com/30682722/244840907-d9ad1b1b-6305-4568-8d78-c187f77db6c2.png)
+
+#### Fantasy
+![](https://user-images.githubusercontent.com/30682722/236654564-a412f74d-b2d9-479d-91c5-47d931121b73.png)
+
+![](https://user-images.githubusercontent.com/30682722/244844028-f3753e89-caaa-46e4-a4e8-d02e472fe2df.png)
+
+![](https://user-images.githubusercontent.com/30682722/236651476-8b3bdf5a-b6d3-4ec8-9b8b-8b11640dfcd9.png)
+
+![](https://user-images.githubusercontent.com/30682722/236651960-0c17aba3-e91f-471c-876f-21ac8ab9e9ad.png)
