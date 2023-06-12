@@ -60,11 +60,6 @@
     line-height: 1.75em;
     cursor: pointer;
   }
-
-  .post__content :global(details p) {
-    padding-left: 1.5rem;
-    color: var(--color-main-accent);
-  }
   
   .post__content :global(details summary:hover) {
     color: var(--color-main-accent);

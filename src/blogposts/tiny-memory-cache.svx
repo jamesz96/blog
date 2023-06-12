@@ -1,0 +1,160 @@
+---
+title: A Tiny Little NodeJS Cache
+date: 2023-06-12
+desc: Something cool a colleague wrote up
+slug: tiny-memory-cache
+tags:
+  - nodejs
+  - typescript
+  - dev
+---
+
+Caching is a **big** topic for **big** applications. Whenever we need to do some sort of caching we'll usually reach for one of the
+many field-tested industry solutions like:
+
+- [node-cache](https://www.npmjs.com/package/node-cache) library
+- [redis](https://redis.io/)
+
+But what about for small applications that aren't critical, or where scalability/performance isn't a huge concern? Ideally we'd want something small with little to no dependencies.
+
+This was exactly the scenario we ran into a while back. Unable to find anything suitable, a work colleague decided to roll his own. It was a pleasure to review.
+
+Here is the implementation:
+
+```typescript
+const cacheTimeout = 1000 * 60; // 1 minute
+
+type CacheableFn<T> = (...args: any[]) => T
+
+export function memoryCache<T, F extends CacheableFn<T>>(fn: F): CacheableFn<T> {
+  const cache = new Map<string, T>();
+  const cachedFn: CacheableFn<T> = (...args: any[]) => {
+    const cacheKey = JSON.stringify(args);
+    if (!cache.has(cacheKey)) {
+      cache.set(cacheKey, fn(...args));
+      setTimeout(() => cache.delete(cacheKey), cacheTimeout);
+    }
+    return cache.get(cacheKey) as T;
+  };
+  return cachedFn;
+}
+```
+
+This code was added to a service that mostly (or at least tries to) follow the functional programming paradigm, so it was nice to see that it extended to his implementation.
+
+## How Does It Work?
+
+Wrapping a function with `memoryCache` basically initialises a `Map` object on the heap and declares an inner function (assigned to variable) that contains your usual cache key building/existence checks.
+The arguments are passed through into the inner function unchanged. This allows the function caller to use the function without knowledge of `memoryCache`.
+
+Having `Map` referenced in `memoryCache`'s scope also means we can take advantage of Javascript closures. The inner function can freely use the `Map` object.
+This has a nice side effect of there still being a reference to the `Map` object. So even when `memoryCache` returns and all local variables on the stack are descoped the `Map` object won't be garbaged collected.
+
+What gets returned? The inner function of course!
+This inner function is easier to understand. Basically the original function (the one you're interested in caching) is called if the element (cache `key`) doesn't exist, otherwise just return the cached value.
+The eviction policy for the cache is as simple as it gets. We use a TTL with a hardcoded `setTimeout` duration.
+
+Here is a simple example:
+
+```typescript
+export const getAvailability = memoryCache(
+  async (
+    id: string,
+    params: AvailabilityParams
+  ): Promise<AvailabilityPricingList> => {
+    const path = `${BASE_PATH}/availability`;
+    const response = await get<GetAvailabilityOkResponse>(path, {
+      ...params,
+      offerIds: id
+    });
+    return response.data.result;
+  }
+);
+
+// Usage
+await getAvailability(item.offerId, params)
+```
+
+It is very neat to have the function caller not have to worry about any of the details with caching.
+
+It is also very versatile. It works with both synchronous and asynchronous functions and is not limited to only network requests like most libraries you'll find.
+
+
+<details>
+  <summary>Click Me To See Some Testing!</summary>
+
+#### Here is a small test I wrote:
+
+```typescript
+import { memoryCache } from "@lib/memoryCache"
+
+type AddTwoNumbers = (a: number, b: number) => Promise<number>
+async function addTwoNumbers(a: number, b: number): Promise<number> {
+  await new Promise(resolve => setTimeout(resolve, 500))
+  return a + b
+}
+
+describe("memory cache", () => {
+  it("Add Two Numbers", async () => {
+    const someFn = memoryCache<Promise<number>, AddTwoNumbers>(addTwoNumbers)
+
+    console.time("fn-1")
+    const result = await someFn(1, 2)
+    console.log(someFn.name)
+    console.timeEnd("fn-1")
+
+    console.time("fn-2")
+    const resultB = await someFn(1, 2)
+    console.timeEnd("fn-2")
+    
+    expect(result).toEqual(3)
+    expect(resultB).toEqual(3)
+  })
+})
+```
+If you have worked with React before using `memoryCache` will probably remind you of hooks, especially `useMemo`.
+
+Now let's run the test:
+
+```
+❯ yarn jest src/lib/memoryCache.test.ts
+yarn run v1.22.19
+$ /home/jamesz/workspace/svc-cart/node_modules/.bin/jest src/lib/memoryCache.test.ts
+  console.time
+    fn-1: 500 ms
+
+      at Object.<anonymous> (src/lib/memoryCache.test.ts:15:13)
+
+  console.time
+    fn-2: 0 ms
+
+      at Object.<anonymous> (src/lib/memoryCache.test.ts:19:13)
+
+ PASS  src/lib/memoryCache.test.ts
+  memory cache
+    ✓ Add Two Numbers (512 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.815 s, estimated 2 s
+Ran all test suites matching /src\/lib\/memoryCache.test.ts/i.
+Done in 2.79s.
+```
+In the console output you will notice elapsed execution duration for each of the function calls:
+- the first took `500ms`
+- the second was much pretty instantaneous
+
+Both function calls return the expected value.
+
+</details>
+
+## Improvements
+
+A couple of things that I can think of:
+- It would be nice to have a way to clear out the cache and the `NodeJS.timeout` objects
+- There is no safety net with memory usage. Even though the TTL is very short, it is still a possibility.
+  - We'll need to add a threshold on how big the cache `Map` can get.
+- It should probably be the responsibility of the function caller to define what the cache key should be
+  - Pros: Not using `JSON.stringify`
+  - Cons: Abstraction - we want usage of this utility to be transparent
