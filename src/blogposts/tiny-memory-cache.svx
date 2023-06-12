@@ -1,8 +1,8 @@
 ---
-title: A Tiny Little NodeJS Cache
+title: A Nifty Little NodeJS Cache
 date: 2023-06-12
-desc: Something cool a colleague wrote up
-slug: tiny-memory-cache
+desc: A nifty bit of code I came across recently
+slug: nifty-memory-cache
 tags:
   - nodejs
   - typescript
@@ -17,7 +17,7 @@ many field-tested industry solutions like:
 
 But what about for small applications that aren't critical, or where scalability/performance isn't a huge concern? Ideally we'd want something small with little to no dependencies.
 
-This was exactly the scenario we ran into a while back. Unable to find anything suitable, a work colleague decided to roll his own. It was a pleasure to review.
+This was exactly the scenario we ran into a while back. Unable to find anything suitable, a work colleague of mine decided to roll his own. It was a pleasure to review.
 
 Here is the implementation:
 
