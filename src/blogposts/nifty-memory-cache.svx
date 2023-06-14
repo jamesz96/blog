@@ -100,7 +100,6 @@ describe("memory cache", () => {
 
     console.time("fn-1")
     const result = await someFn(1, 2)
-    console.log(someFn.name)
     console.timeEnd("fn-1")
 
     console.time("fn-2")
