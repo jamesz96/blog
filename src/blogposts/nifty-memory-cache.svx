@@ -17,7 +17,7 @@ many field-tested industry solutions like:
 
 But what about for small applications that aren't critical, or where scalability/performance isn't a huge concern? Ideally we'd want something small with little to no dependencies.
 
-This was exactly the scenario we ran into a while back. Unable to find anything suitable, a work colleague of mine decided to roll his own. It was a pleasure to review.
+This was exactly the scenario we ran into a while back. Unable to find anything suitable, a work colleague of mine decided to roll his own. It was the first time I'd seen this implementation pattern.
 
 Here is the implementation:
 
@@ -151,9 +151,9 @@ Both function calls return the expected value.
 ## Improvements
 
 A couple of things that I can think of:
-- It would be nice to have a way to clear out the cache and the `NodeJS.timeout` objects
-- There is no safety net with memory usage. Even though the TTL is very short, it is still a possibility.
-  - We'll need to add a threshold on how big the cache `Map` can get.
+- It would be nice to have a way to clear out the cache and the `NodeJS.timeout`
+- There is no safety net with memory usage. Even though the TTL is very short, it is still a possibility
+  - We'll need to add a threshold on how big the cache `Map` can get
 - It should probably be the responsibility of the function caller to define what the cache key should be
   - Pros: Not using `JSON.stringify`
   - Cons: Abstraction - we want usage of this utility to be transparent
