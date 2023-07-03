@@ -18,7 +18,7 @@ The workflow utilises three independent tools:
 - [Github actions](https://github.com/features/actions)
 - [Docusaurus](https://docusaurus.io)
 
-I've appropriately named it Releasaurus, and you can find the project [here](https://jamszh.github.io/releasaurus/docs/intro).
+I've *appropriately* named it Releasaurus, and you can find the project [here](https://jamszh.github.io/releasaurus/docs/intro).
 
 The documentation goes into detail on how I've combined these tools and how it works behind the scenes (especially if you're unfamiliar with Github actions).
 
