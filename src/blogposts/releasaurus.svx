@@ -1,0 +1,44 @@
+---
+title: Releasaurus and Friends
+date: 2023-07-03
+desc: Automated release notes workflow made simple
+slug: releasaurus
+tags:
+  - github
+  - release-notes
+  - dev
+---
+
+I've recently built a small automated workflow around generating and hosting release notes. It is a solution that is as budget as it gets and is super easy to set up for any project on Github.
+It's most useful when you have multiple projects, but it's perfectly fine to just have one.
+
+The workflow utilises three independent tools:
+
+- [release-please](https://github.com/googleapis/release-please)
+- [Github actions](https://github.com/features/actions)
+- [Docusaurus](https://docusaurus.io)
+
+I've appropriately named it Releasaurus, and you can find the project [here](https://jamszh.github.io/releasaurus/docs/intro).
+
+The documentation goes into detail on how I've combined these tools and how it works behind the scenes (especially if you're unfamiliar with Github actions).
+
+I've managed to integrate this workflow into some small projects at my day job. The feedback has been pretty good so far because we're otherwise not really diligent when it comes to creating release notes (they are an afterthought).
+
+Hopefully this mentality will change after we start integrating Releasaurus into more projects 😎.
+
+
+
+### Related Work
+
+One piece of feedback I got was to have PR authors (we squash merge our PRs) listed in the release notes. Even though the release notes have a link to the exact commit, it is one of those mini time savers that everyone appreciates.
+
+I spent some investigating this and to my utmost surprise `release-please` didn't actually have this feature!
+
+
+
+So I did what every mildly annoyed engineer would do - build it!
+
+
+Here is the PR on the official open source `release-please` repository:
+
+- https://github.com/googleapis/release-please/pull/1938
