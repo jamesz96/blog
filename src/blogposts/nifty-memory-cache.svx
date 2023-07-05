@@ -13,6 +13,7 @@ Caching is a **big** topic for **big** applications. Whenever we need to do some
 many field-tested industry solutions like:
 
 - [node-cache](https://www.npmjs.com/package/node-cache) library
+- [cache-manager](https://www.npmjs.com/package/cache-manager)
 - [redis](https://redis.io/)
 
 But what about for small applications that aren't critical, or where scalability/performance isn't a huge concern? Ideally we'd want something small with little to no dependencies.
