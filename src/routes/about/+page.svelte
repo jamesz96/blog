@@ -59,12 +59,12 @@
       <ul>
         <li>Small, random projects like this blog</li>
         <li>Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a></li>
-        <li>Playing computer games. <i>Currently</i> Oldschool Runescape and Street Fighter V</li>
-        <li>Venturing into the exceedingly deep modern history rabbit hole</li>
+        <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota2.
+        <li>Enjoy learning about the late modern period in history</li>
         <li>Reading blogs and books on science/tech</li>
         <li>Tennis, yoga, and general fitness</li>
         <li>Learning German and <i>maybe later...</i> Mandarin Chinese</li>
-        <li>Exploring music - anything goes</li>
+        <li>Music. Favourite genre is either Trance or Progressive House but I usually find myself enjoying almost anything</li>
       <ul>
     </Section>
   </div>
