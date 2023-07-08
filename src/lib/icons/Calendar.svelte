@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let className: string;
+</script>
+
 <svg
   width="16"
   height="16"
@@ -15,7 +19,3 @@
     fill="currentColor"
   /></svg
 >
-
-<script lang="ts">
-export let className: string
-</script>

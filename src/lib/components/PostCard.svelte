@@ -1,3 +1,34 @@
+<script lang="ts">
+  import { fade } from 'svelte/transition';
+  import Calendar from '$lib/icons/Calendar.svelte';
+
+  export let title: string;
+  export let desc: string;
+  export let href: string;
+  export let date: string;
+  export let tags: Array<string>;
+</script>
+
+<div class="card" in:fade={{ duration: 200 }}>
+  <a rel="prefetch" {href} class="card__details">
+    <span class="card__title">{title}</span>
+    <div class="card__date">
+      <Calendar className="date__icon" />
+      <span class="date__label">
+        {new Date(date).toLocaleDateString('en-AU', {
+          day: 'numeric',
+          month: 'long',
+          year: 'numeric'
+        })}
+      </span>
+    </div>
+    <div class="card__tags">
+      {#each tags as tag}<span class="card__tag">{tag}</span>{/each}
+    </div>
+    <p class="card__desc">{desc}</p>
+  </a>
+</div>
+
 <style>
   .card {
     overflow: hidden;
@@ -78,35 +109,4 @@
       filter: brightness(1.2);
     }
   }
-  </style>
-
-  <div class="card" in:fade={{ duration: 200 }}>
-    <a rel="prefetch" {href} class="card__details">
-      <span class="card__title">{title}</span>
-        <div class="card__date">
-          <Calendar className="date__icon" />
-          <span class="date__label">
-            {new Date(date).toLocaleDateString("en-AU", {
-              day: "numeric",
-              month: "long",
-              year: "numeric",
-            })}
-          </span>
-        </div>
-        <div class="card__tags">
-          {#each tags as tag}<span class="card__tag">{tag}</span>{/each}
-        </div>
-      <p class="card__desc">{desc}</p>
-    </a>
-  </div>
-
-  <script lang="ts">
-  import { fade } from "svelte/transition"
-  import Calendar from "$lib/icons/Calendar.svelte"
-
-  export let title: string
-  export let desc: string
-  export let href: string
-  export let date: string
-  export let tags: Array<string>
-  </script>
+</style>

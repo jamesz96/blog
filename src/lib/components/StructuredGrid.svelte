@@ -1,3 +1,7 @@
+<div class="root">
+  <slot />
+</div>
+
 <style>
   .root {
     display: grid;
@@ -5,7 +9,3 @@
     row-gap: 0.5rem;
   }
 </style>
-
-<div class="root">
-  <slot />
-</div>

@@ -1,36 +1,19 @@
-<style>
-  .main {
-    display: flex;
-    justify-content: center;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-
-  .content {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    justify-content: center;
-  }
-</style>
-
 <script context="module">
-	import { browser, dev } from '$app/environment';
+  import { browser, dev } from '$app/environment';
   import TechSection from '$lib/components/about/TechSection.svelte';
   import Section from '$lib/components/Section.svelte';
 
-	// we don't need any JS on this page, though we'll load
-	// it in dev so that we get hot module replacement...
-	export const hydrate = dev;
+  // we don't need any JS on this page, though we'll load
+  // it in dev so that we get hot module replacement...
+  export const hydrate = dev;
 
-	// ...but if the client-side router is already loaded
-	// (i.e. we came here from elsewhere in the app), use it
-	export const router = browser;
+  // ...but if the client-side router is already loaded
+  // (i.e. we came here from elsewhere in the app), use it
+  export const router = browser;
 </script>
 
 <svelte:head>
-	<title>About</title>
+  <title>About</title>
 </svelte:head>
 
 <main class="main">
@@ -49,23 +32,44 @@
           Whether it being on-the-job or letting my curiosity take the driver's seat.
         </p>
         <br />
-        <p>
-          It has been great fun so far.
-        </p>
+        <p>It has been great fun so far.</p>
       </body>
     </Section>
     <TechSection />
     <Section title="Hobbies">
       <ul>
         <li>Small, random projects like this blog</li>
-        <li>Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a></li>
-        <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota2.
+        <li>
+          Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a>
+        </li>
+        <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota2.</li>
         <li>Enjoy learning about the late modern period in history</li>
         <li>Reading blogs and books on science/tech</li>
         <li>Tennis, yoga, and general fitness</li>
         <li>Learning German and <i>maybe later...</i> Mandarin Chinese</li>
-        <li>Music. Favourite genre is either Trance or Progressive House but I usually find myself enjoying almost anything</li>
-      <ul>
-    </Section>
+        <li>
+          Music. Favourite genre is either Trance or Progressive House but I usually find myself
+          enjoying almost anything
+        </li>
+        <ul />
+      </ul></Section
+    >
   </div>
 </main>
+
+<style>
+  .main {
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+  }
+</style>

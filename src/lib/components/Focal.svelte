@@ -1,3 +1,9 @@
+<section class="focal">
+  <a href="https://github.com/jamszh">
+    <img class="focal__pict" src="https://github.com/jamszh.png" alt="github profile" />
+  </a>
+</section>
+
 <style>
   .focal {
     display: flex;
@@ -34,14 +40,4 @@
       color: rgba(77, 125, 214, 0.075);
     }
   }
-  </style>
-
-  <section class="focal">
-    <a href="https://github.com/jamszh">
-      <img
-        class="focal__pict"
-        src="https://github.com/jamszh.png"
-        alt="github profile"
-      />
-    </a>
-  </section>
+</style>

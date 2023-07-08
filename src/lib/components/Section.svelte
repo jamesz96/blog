@@ -1,3 +1,22 @@
+<script lang="ts">
+  export let title: string;
+  export let subtitle: string | null = null;
+</script>
+
+<section class="root">
+  {#if subtitle}
+    <span>
+      <h2>{title}</h2>
+      <div>{subtitle}</div>
+    </span>
+  {:else}
+    <h2>{title}</h2>
+  {/if}
+  <div class="content">
+    <slot />
+  </div>
+</section>
+
 <style>
   .root {
     display: grid;
@@ -23,22 +42,3 @@
     font-weight: 300;
   }
 </style>
-
-<script lang="ts">
-  export let title: string;
-  export let subtitle: string | null = null;
-</script>
-
-<section class="root">
-  {#if subtitle}
-    <span>
-      <h2>{title}</h2>
-      <div>{subtitle}</div>
-    </span>
-  {:else}
-    <h2>{title}</h2>
-  {/if}
-  <div class="content">
-    <slot />
-  </div>
-</section>

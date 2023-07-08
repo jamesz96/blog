@@ -1,3 +1,8 @@
+<section class="section">
+  <h1>Hey, I'm James!</h1>
+  <div class="body">On this planet to learn and have fun</div>
+</section>
+
 <style>
   .section {
     display: grid;
@@ -11,10 +16,3 @@
     margin-top: 1.5rem;
   }
 </style>
-
-<section class="section">
-  <h1>Hey, I'm James!</h1>
-  <div class="body">
-    On this planet to learn and have fun
-  </div>
-</section>
