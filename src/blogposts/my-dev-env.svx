@@ -20,7 +20,7 @@ I could say this for any development environment, but I've found that it is the 
 
 It doesn't take long to realise that you can never actually *finish* building your environment, it will always be a WIP.
 
-![](https://user-images.githubusercontent.com/30682722/227663043-df6b8017-1dd5-420f-9149-e8ab1687f516.PNG "Midjourney prompt: 'immense stunning space lift, construction workers building the structure in a crane, high resolution, pixel art island, isometic view, high detail, high fantasy with elements of futuristic tech, dark background'")
+![Midjourney prompt: 'immense stunning space lift, construction workers building the structure in a crane, high resolution, pixel art island, isometic view, high detail, high fantasy with elements of futuristic tech, dark background'](https://user-images.githubusercontent.com/30682722/227663043-df6b8017-1dd5-420f-9149-e8ab1687f516.PNG "Midjourney prompt: 'immense stunning space lift, construction workers building the structure in a crane, high resolution, pixel art island, isometic view, high detail, high fantasy with elements of futuristic tech, dark background'")
 
 # The Rundown
 
