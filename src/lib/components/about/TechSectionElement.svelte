@@ -1,6 +1,8 @@
 <script lang="ts">
   import InlineGroup from '$lib/components/common/InlineGroup.svelte';
-  export let Icon: any; // TYPE this
+  import type { ComponentType } from 'svelte'
+
+  export let Icon: ComponentType
   export let name: string;
 
   const dimensions = { height: 20, width: 20 };

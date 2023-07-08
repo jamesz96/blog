@@ -1,6 +1,8 @@
 <script lang="ts">
   import PostCard from '$lib/components/PostCard.svelte';
-  export let data: Array<Record<string, any>>;
+  import type { Metadata } from '$lib/request/fetch';
+
+  export let data: Array<Metadata>;
 </script>
 
 <div class="cards">

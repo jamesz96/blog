@@ -5,7 +5,7 @@
   const { siteName, siteUrl } = data;
 
   export let title: string;
-  export let isPost: boolean = false;
+  export let isPost = false;
   export let thumbnail: string | boolean = false;
   export let desc: string = data.desc;
   export let keywords: string[] = data.keywords;

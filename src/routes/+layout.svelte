@@ -4,7 +4,7 @@
   import Loading from '$lib/components/Loading.svelte';
   import { theme, getSavedTheme, getPreferredTheme } from '$lib/utils/theme';
 
-  export const segment: string = '';
+  export const segment = '';
 
   onMount(() => {
     theme.set(getSavedTheme() ?? getPreferredTheme());
