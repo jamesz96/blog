@@ -1,20 +1,10 @@
-<style>
-  .subtitle {
-    font-weight: 500;
-    text-align: center;
-  }
-
-  .list {
-    margin-top: 1rem;
-  }
-</style>
-
 <script lang="ts">
-  import StructuredGrid from '$lib/components/StructuredGrid.svelte'
-  import TechSectionElement from './TechSectionElement.svelte'
+  import StructuredGrid from '$lib/components/StructuredGrid.svelte';
+  import TechSectionElement from './TechSectionElement.svelte';
+  import type { ComponentType } from 'svelte'
 
-  export let items: Array<{ icon: any, name: string }>
-  export let label: string
+  export let items: Array<{ icon: ComponentType; name: string }>;
+  export let label: string;
 </script>
 
 <div>
@@ -27,3 +17,14 @@
     </StructuredGrid>
   </div>
 </div>
+
+<style>
+  .subtitle {
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .list {
+    margin-top: 1rem;
+  }
+</style>

@@ -1,12 +1,3 @@
-<style>
-  .table {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 5rem;
-    font-family: var(--font-family-code);
-  }
-</style>
-
 <script context="module">
   import TechSectionPart from './TechSectionPart.svelte';
   import Section from '$lib/components/Section.svelte';
@@ -31,34 +22,34 @@
   import Swagger from '$lib/icons/Swagger.svelte';
 
   const languages = [
-    { icon: Go, name: "Go" },
-    { icon: Cpp, name: "C++" },
-    { icon: Python, name: "Python" },
-    { icon: Typescript, name: "Typescript" },
-  ]
+    { icon: Go, name: 'Go' },
+    { icon: Cpp, name: 'C++' },
+    { icon: Python, name: 'Python' },
+    { icon: Typescript, name: 'Typescript' }
+  ];
 
   const frontEndItems = [
-    { icon: React, name: "React" },
-    { icon: Redux, name: "Redux" },
-    { icon: Svelte, name: "Svelte" },
-    { icon: Webpack, name: "Webpack" },
-    { icon: Nextjs, name: "Next.js" },
-  ]
+    { icon: React, name: 'React' },
+    { icon: Redux, name: 'Redux' },
+    { icon: Svelte, name: 'Svelte' },
+    { icon: Webpack, name: 'Webpack' },
+    { icon: Nextjs, name: 'Next.js' }
+  ];
 
   const backendItems = [
-    { icon: Redis, name: "Redis" },
-    { icon: Nodejs, name: "Node.js" },
-    { icon: Swagger, name: "Swagger" },
-    { icon: PostgreSql, name: "PostgreSQL" },
-  ]
+    { icon: Redis, name: 'Redis' },
+    { icon: Nodejs, name: 'Node.js' },
+    { icon: Swagger, name: 'Swagger' },
+    { icon: PostgreSql, name: 'PostgreSQL' }
+  ];
 
   const tools = [
-    { icon: Docker, name: "Docker" },
-    { icon: Jenkins, name: "Jenkins" },
-    { icon: Algolia, name: "Algolia" },
-    { icon: CircleCi, name: "CircleCI" },
-    { icon: GoogleOptimize, name: "G Optimize" },
-  ]
+    { icon: Docker, name: 'Docker' },
+    { icon: Jenkins, name: 'Jenkins' },
+    { icon: Algolia, name: 'Algolia' },
+    { icon: CircleCi, name: 'CircleCI' },
+    { icon: GoogleOptimize, name: 'G Optimize' }
+  ];
 </script>
 
 <Section title="Tech" subtitle="I have worked with or dabbled in">
@@ -70,3 +61,11 @@
   </div>
 </Section>
 
+<style>
+  .table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5rem;
+    font-family: var(--font-family-code);
+  }
+</style>

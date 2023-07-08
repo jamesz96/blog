@@ -1,3 +1,57 @@
+<script lang="ts">
+  import type { PageData } from './$types';
+  import SEO from '$lib/components/SEO.svelte';
+  import Giscus from '@giscus/svelte';
+  import { theme } from '$lib/utils/theme';
+
+  export let data: PageData;
+
+  const component = data.component;
+  const { title, date, desc, tags, slug } = data.meta;
+  const editLink = `https://github.com/jamszh/blog/tree/main/src/blogposts/${slug}.svx`;
+</script>
+
+<svelte:head>
+  <link rel="preload" as="style" />
+</svelte:head>
+
+<SEO {desc} {title} />
+
+<section class="post">
+  <h1 class="post__title">{title}</h1>
+  <span class="post__date">
+    Posted on
+    {new Date(date).toLocaleDateString('en-AU', { weekday: 'long' })},
+    {new Date(date).toLocaleDateString('en-AU', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })}
+  </span>
+  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest an Edit</a>
+  <div class="post__tags">
+    {#each tags as tag}
+      <div class="post__tag">{tag}</div>
+    {/each}
+  </div>
+  <div class="post__content">
+    <svelte:component this={component} />
+    <div class="comments">
+      <Giscus
+        id="comments"
+        category="General"
+        categoryId="DIC_kwDOGmZlC84CRm4F"
+        repo="jamszh/blog"
+        repoId="R_kgDOGmZlCw"
+        reactionsEnabled="1"
+        lang="en"
+        loading="lazy"
+        theme={$theme}
+      />
+    </div>
+  </div>
+</section>
+
 <style>
   .post {
     max-width: 1080px;
@@ -60,7 +114,7 @@
     line-height: 1.75em;
     cursor: pointer;
   }
-  
+
   .post__content :global(details summary:hover) {
     color: var(--color-main-accent);
     user-select: none;
@@ -78,17 +132,13 @@
   }
 
   .post__content :global(h1::after) {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     height: 0.125rem;
-    background-image: linear-gradient(
-      to right,
-      var(--color-main-accent),
-      rgba(0, 0, 0, 0)
-    );
+    background-image: linear-gradient(to right, var(--color-main-accent), rgba(0, 0, 0, 0));
   }
 
   .post__content :global(h2) {
@@ -109,14 +159,14 @@
   }
 
   .post__content :global(h3::after) {
-    content: "• ";
+    content: '• ';
     position: absolute;
     left: 0;
     color: var(--color-main-accent);
   }
 
   .post__content :global(h2::after) {
-    content: "# ";
+    content: '# ';
     position: absolute;
     left: 0;
     color: var(--color-main-accent);
@@ -166,7 +216,7 @@
   }
 
   .post__content :global(code) {
-    font-family: "JetBrains Mono", monospace;
+    font-family: 'JetBrains Mono', monospace;
     color: var(--color-main-accent);
     padding: 0.125rem 0.25rem;
     border-radius: 0.25rem;
@@ -176,7 +226,7 @@
   }
 
   .post__content :global(pre code) {
-    font-family: "JetBrains Mono", monospace;
+    font-family: 'JetBrains Mono', monospace;
     font-weight: 400;
     padding: 0;
     border-radius: 0;
@@ -208,7 +258,7 @@
   }
 
   .post__content :global(ul li::before) {
-    content: "•";
+    content: '•';
     color: var(--color-main-text);
     font-size: 1.5rem;
     line-height: 1.5em;
@@ -263,11 +313,11 @@
   }
 
   .post__content :global(blockquote p::before) {
-    content: "";
+    content: '';
   }
 
   .post__content :global(blockquote p::after) {
-    content: "";
+    content: '';
   }
 
   .post__content :global(h1 a),
@@ -310,7 +360,7 @@
   }
 
   .post__tag::before {
-    content: "# ";
+    content: '# ';
   }
 
   @media only screen and (max-width: 480px) {
@@ -330,60 +380,3 @@
     }
   }
 </style>
-
-<svelte:head>
-  <link
-    rel="preload"
-    as="style"
-  />
-</svelte:head>
-
-<SEO {desc} {title} />
-
-<section class="post">
-  <h1 class="post__title">{title}</h1>
-  <span class="post__date">
-    Posted on
-    {new Date(date).toLocaleDateString("en-AU", { weekday: "long" })},
-    {new Date(date).toLocaleDateString("en-AU", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    })}
-  </span>
-  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest an Edit</a>
-  <div class="post__tags">
-    {#each tags as tag}
-      <div class="post__tag">{tag}</div>
-    {/each}
-  </div>
-  <div class="post__content">
-    <svelte:component this={component} />
-    <div class="comments">
-      <Giscus
-        id="comments"
-        category="General"
-        categoryId="DIC_kwDOGmZlC84CRm4F"
-        repo="jamszh/blog"
-        repoId="R_kgDOGmZlCw"
-        reactionsEnabled="1"
-        lang="en"
-        loading="lazy"
-        theme={$theme}
-      />
-    </div>
-  </div>
-</section>
-
-<script lang="ts">
-  import type { PageData } from './$types'
-  import SEO from '$lib/components/SEO.svelte'
-  import Giscus from '@giscus/svelte'
-  import { theme } from '$lib/utils/theme'
-
-  export let data: PageData
-
-  const component = data.component
-  const { title, date, desc, tags, slug } = data.meta
-  const editLink = `https://github.com/jamszh/blog/tree/main/src/blogposts/${slug}.svx`
-</script>

@@ -1,3 +1,26 @@
+<script lang="ts">
+  import Moon from '$lib/components/Moon.svelte';
+</script>
+
+<nav class="navbar">
+  <div class="content">
+    <div class="navbar__container">
+      <div class="navbar__item">
+        <a href="/">/</a>
+      </div>
+      <div class="navbar__item">
+        <a href="/search">/search</a>
+      </div>
+      <div class="navbar__item">
+        <a href="/about">/about</a>
+      </div>
+    </div>
+    <div class="navbar__container">
+      <Moon />
+    </div>
+  </div>
+</nav>
+
 <style>
   .navbar {
     display: flex;
@@ -34,7 +57,7 @@
   }
 
   .navbar__item:hover {
-    background-color: var(--prism-comment)
+    background-color: var(--prism-comment);
   }
 
   .navbar__item a:hover::after {
@@ -42,7 +65,7 @@
   }
 
   .navbar__item a::after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -0.25rem;
     left: 0;
@@ -51,27 +74,4 @@
     transform: scale(0);
     transition: transform ease-out 0.2s;
   }
-  </style>
-
-  <nav class="navbar">
-    <div class="content">
-      <div class="navbar__container">
-        <div class="navbar__item">
-          <a href="/">/</a>
-        </div>
-        <div class="navbar__item">
-          <a href="/search">/search</a>
-        </div>
-        <div class="navbar__item">
-          <a href="/about" >/about</a>
-        </div>
-      </div>
-      <div class="navbar__container">
-        <Moon/>
-      </div>
-    </div>
-  </nav>
-
-  <script lang="ts">
-  import Moon from "$lib/components/Moon.svelte"
-  </script>
+</style>

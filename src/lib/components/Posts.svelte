@@ -1,10 +1,9 @@
-<style>
-  .cards {
-    display: grid;
-    gap: 1rem;
-    justify-items: center;
-  }
-</style>
+<script lang="ts">
+  import PostCard from '$lib/components/PostCard.svelte';
+  import type { Metadata } from '$lib/request/fetch';
+
+  export let data: Array<Metadata>;
+</script>
 
 <div class="cards">
   {#each data as item}
@@ -18,7 +17,10 @@
   {/each}
 </div>
 
-<script lang="ts">
-import PostCard from "$lib/components/PostCard.svelte"
-export let data: Array<Record<string, any>>
-</script>
+<style>
+  .cards {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+  }
+</style>

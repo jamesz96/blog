@@ -23,7 +23,7 @@ Here are some examples I've caught myself doing:
 - rewriting the same paragraph over and over, trying to make it just right.
 
 
-![](https://user-images.githubusercontent.com/30682722/235347912-c27073ef-b6e7-4cf2-8d86-e220ccbfa2b3.png "when the dumpling is just right")
+![When the dumpling is just right](https://user-images.githubusercontent.com/30682722/235347912-c27073ef-b6e7-4cf2-8d86-e220ccbfa2b3.png "when the dumpling is just right")
 
 
 Maybe these are just symptoms of writer's block. Maybe I just haven't reached a level of proficiency I'm comfortable with yet.
