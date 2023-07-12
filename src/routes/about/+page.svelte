@@ -38,7 +38,7 @@
     <TechSection />
     <Section title="Hobbies">
       <ul>
-        <li>Small, random projects like this blog</li>
+        <li>Small, random projects like <a href="https://github.com/jamszh/blog">this blog</a></li>
         <li>
           Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a>
         </li>
