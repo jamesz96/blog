@@ -24,7 +24,7 @@
     --prism-inserted: #08916a;
     --prism-classname: #111111;
 
-    --hover-brightness: 0.9;
+    --hover-brightness: 0.8;
   }
 
   /* set dark colours if user overrides it */
@@ -120,7 +120,7 @@
     --prism-inserted: #08916a;
     --prism-classname: #111111;
 
-    --hover-brightness: 0.9;
+    --hover-brightness: 0.8;
   }
 }
 

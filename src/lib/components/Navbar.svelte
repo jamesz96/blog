@@ -23,12 +23,13 @@
   .navbar {
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(5px);
     height: 3rem;
-    background-color: var(--color-main-bg);
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
+    z-index: 50;
   }
 
   .navbar > .content {
@@ -45,17 +46,16 @@
   }
 
   .navbar__item {
-    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
 
   .navbar__item__selected {
-    filter: brightness(1.5);
+    filter: brightness(var(--hover-brightness));
   }
 
   .nav__link {
-    font-family: var(--font-family);
-    font-weight: 200;
+    font-family: var(--font-family-code);
+    font-weight: 350;
     position: relative;
     color: var(--color-alt-text);
     text-decoration: none;
@@ -63,7 +63,6 @@
   }
 
   .navbar__item:hover {
-    -webkit-filter: brightness(1.5);
-    filter: brightness(1.5);
+    filter: brightness(var(--hover-brightness));
   }
 </style>

@@ -27,8 +27,8 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: irem;
   }
 </style>

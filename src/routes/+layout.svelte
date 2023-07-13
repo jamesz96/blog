@@ -30,8 +30,8 @@
   </script>
 </svelte:head>
 
-<Navbar />
 <main>
+  <Navbar />
   <Loading />
   <div>
     <slot />
@@ -42,15 +42,10 @@
   main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
   }
 
   div {
     flex: 1;
     margin-top: 4.5rem;
-  }
-
-  :global(html) {
-    scroll-padding-top: 4.5rem;
   }
 </style>

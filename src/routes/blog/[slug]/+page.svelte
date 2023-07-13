@@ -208,7 +208,6 @@
     display: inline-block;
     color: var(--color-main-accent);
     text-decoration: none;
-    z-index: 5;
   }
 
   .post__content :global(a:hover) {
