@@ -50,7 +50,6 @@
   .main {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 2rem 1rem 0;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -71,7 +70,7 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    background-color: var(--color-alt-bg);
+    background-color: var(--color-special-bg);
     border-radius: 1rem;
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.075);
     padding: 0.75rem;
@@ -83,7 +82,7 @@
     width: 100%;
     font-size: 1.125rem;
     border: none;
-    background-color: var(--color-alt-bg);
+    background-color: var(--color-special-bg);
     outline: none;
     color: var(--color-main-text);
     content: '';

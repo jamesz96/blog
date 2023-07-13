@@ -1,19 +1,17 @@
 <script lang="ts">
   import Moon from '$lib/components/Moon.svelte';
+  import { page } from '$app/stores';
+  const items = ['/', '/search', '/about']
 </script>
 
 <nav class="navbar">
   <div class="content">
     <div class="navbar__container">
-      <div class="navbar__item">
-        <a href="/">/</a>
-      </div>
-      <div class="navbar__item">
-        <a href="/search">/search</a>
-      </div>
-      <div class="navbar__item">
-        <a href="/about">/about</a>
-      </div>
+      {#each items as item}
+        <div class={$page.url.pathname === item ? "navbar__item__selected" : "navbar__item" }>
+          <a class="nav__link" href={item}>{item}</a>
+        </div>
+      {/each}
     </div>
     <div class="navbar__container">
       <Moon />
@@ -24,20 +22,32 @@
 <style>
   .navbar {
     display: flex;
-    justify-content: center;
+    backdrop-filter: blur(5px);
     height: 3rem;
-    background-color: var(--color-main-bg);
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
+    z-index: 50;
+    padding: 1rem;
   }
 
   .navbar > .content {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  @media only screen and (min-width: 480px) {
+    .navbar {
+      justify-content: center;
+    }
+
+    .navbar > .content {
+      width: 50%;
+      justify-content: space-between;
+    }
   }
 
   .navbar__container {
@@ -46,32 +56,24 @@
     gap: 1rem;
   }
 
-  .navbar__item a {
-    font-family: var(--font-family);
-    font-weight: 200;
+  .navbar__item {
+    transition: all 0.5s ease;
+  }
+
+  .navbar__item__selected {
+    filter: brightness(var(--hover-brightness));
+  }
+
+  .nav__link {
+    font-family: var(--font-family-code);
+    font-weight: 350;
     position: relative;
     color: var(--color-alt-text);
     text-decoration: none;
-    transition: color ease-out 0.001s;
     padding: 1rem;
   }
 
   .navbar__item:hover {
-    background-color: var(--prism-comment);
-  }
-
-  .navbar__item a:hover::after {
-    transform: scale(1);
-  }
-
-  .navbar__item a::after {
-    content: '';
-    position: absolute;
-    bottom: -0.25rem;
-    left: 0;
-    right: 0;
-    height: 0.125rem;
-    transform: scale(0);
-    transition: transform ease-out 0.2s;
+    filter: brightness(var(--hover-brightness));
   }
 </style>

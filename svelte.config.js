@@ -15,7 +15,8 @@ const config = {
     adapter: adapter(),
     alias: {
       $routes: path.resolve('./src/routes/'),
-      $services: path.resolve('./src/services/')
+      $services: path.resolve('./src/services/'),
+      $public: path.resolve('./public/')
     }
   }
 };

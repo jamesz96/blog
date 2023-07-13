@@ -36,7 +36,7 @@ I spent some investigating this and to my utmost surprise `release-please` didn'
 
 
 
-So I did what every mildly annoyed engineer would do - build it!
+So I did what any mildly annoyed engineer would do - build it!
 
 
 Here is the PR on the official open source `release-please` repository:

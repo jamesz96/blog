@@ -64,8 +64,13 @@
 <style>
   .table {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 5rem;
     font-family: var(--font-family-code);
+  }
+  @media only screen and (min-width: 480px) {
+    .table {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 </style>
