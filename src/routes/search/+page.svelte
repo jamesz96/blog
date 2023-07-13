@@ -50,7 +50,6 @@
   .main {
     max-width: 1080px;
     margin: 0 auto;
-    padding: 2rem 1rem 0;
     align-items: center;
     display: flex;
     flex-direction: column;
