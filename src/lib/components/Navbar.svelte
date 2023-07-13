@@ -22,7 +22,6 @@
 <style>
   .navbar {
     display: flex;
-    justify-content: center;
     backdrop-filter: blur(5px);
     height: 3rem;
     position: fixed;
@@ -30,13 +29,25 @@
     right: 0;
     top: 0;
     z-index: 50;
+    padding: 1rem;
   }
 
   .navbar > .content {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  @media only screen and (min-width: 480px) {
+    .navbar {
+      justify-content: center;
+    }
+
+    .navbar > .content {
+      width: 50%;
+      justify-content: space-between;
+    }
   }
 
   .navbar__container {
