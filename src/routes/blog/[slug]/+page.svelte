@@ -232,7 +232,7 @@
     border-radius: 0;
     background: none;
     box-shadow: none;
-    color: var(--color-main-text);
+    color: var(--prism-raw-token);
   }
 
   .post__content :global(ul) {

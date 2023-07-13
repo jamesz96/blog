@@ -33,9 +33,10 @@
   .card {
     overflow: hidden;
     text-align: left;
-    background-color: var(--color-alt-bg);
+    background-color: var(--color-bg);
     width: 100%;
     border-radius: 1rem;
+    transition: all 0.3s ease;
   }
 
   .card__details {
@@ -50,6 +51,7 @@
 
   .card__title {
     font-family: var(--font-family);
+    color: var(--color-main-text);
     font-size: 1.25rem;
     font-weight: 300;
     text-align: center;
@@ -91,7 +93,6 @@
   .card__tag {
     background-color: var(--color-special-bg);
     font-family: var(--font-family);
-    font-weight: 200;
     color: var(--color-main-text);
     font-size: 0.8rem;
     text-decoration: none;
@@ -106,7 +107,7 @@
 
   @media only screen and (min-width: 480px) {
     .card:hover {
-      filter: brightness(1.2);
+      filter: brightness(var(--hover-brightness));
     }
   }
 </style>

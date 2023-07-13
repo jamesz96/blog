@@ -1,19 +1,17 @@
 <script lang="ts">
   import Moon from '$lib/components/Moon.svelte';
+  import { page } from '$app/stores';
+  const items = ['/', '/search', '/about']
 </script>
 
 <nav class="navbar">
   <div class="content">
     <div class="navbar__container">
-      <div class="navbar__item">
-        <a href="/">/</a>
-      </div>
-      <div class="navbar__item">
-        <a href="/search">/search</a>
-      </div>
-      <div class="navbar__item">
-        <a href="/about">/about</a>
-      </div>
+      {#each items as item}
+        <div class={$page.url.pathname === item ? "navbar__item__selected" : "navbar__item" }>
+          <a class="nav__link" href={item}>{item}</a>
+        </div>
+      {/each}
     </div>
     <div class="navbar__container">
       <Moon />
@@ -46,32 +44,26 @@
     gap: 1rem;
   }
 
-  .navbar__item a {
+  .navbar__item {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .navbar__item__selected {
+    filter: brightness(1.5);
+  }
+
+  .nav__link {
     font-family: var(--font-family);
     font-weight: 200;
     position: relative;
     color: var(--color-alt-text);
     text-decoration: none;
-    transition: color ease-out 0.001s;
     padding: 1rem;
   }
 
   .navbar__item:hover {
-    background-color: var(--prism-comment);
-  }
-
-  .navbar__item a:hover::after {
-    transform: scale(1);
-  }
-
-  .navbar__item a::after {
-    content: '';
-    position: absolute;
-    bottom: -0.25rem;
-    left: 0;
-    right: 0;
-    height: 0.125rem;
-    transform: scale(0);
-    transition: transform ease-out 0.2s;
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
   }
 </style>

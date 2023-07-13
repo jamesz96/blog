@@ -1,20 +1,17 @@
 <script lang="ts">
   import SEO from '$lib/components/SEO.svelte';
   import Focal from '$lib/components/Focal.svelte';
-  import RecentPostSection from '$lib/components/RecentPostSection.svelte';
   import Intro from '$lib/components/Intro.svelte';
-
-  import type { PageData } from './$types';
-  export let data: PageData;
+  import Bio from '$lib/components/Bio.svelte';
 </script>
 
 <SEO title="Home" />
 
 <main class="main">
   <div class="content">
-    <div><Focal /></div>
-    <div><Intro /></div>
-    <div class="recent"><RecentPostSection data={data.posts} /></div>
+    <Intro />
+    <Focal />
+    <Bio />
   </div>
 </main>
 
@@ -30,11 +27,8 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
-  }
-
-  .recent {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 </style>
