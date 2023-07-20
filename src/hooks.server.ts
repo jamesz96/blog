@@ -1,11 +1,13 @@
-import { dev } from '$app/environment'
+// import { dev } from '$app/environment'
 import { v4 as uuid } from '@lukeed/uuid';
 import type { Handle } from '@sveltejs/kit';
-import { buildIndices } from '$services/algolia'
 
-if (!dev) {
-  buildIndices()
-}
+// We only need to build at the time of merging...
+// import { buildIndices } from '$services/algolia'
+//
+// if (!dev) {
+//   buildIndices()
+// }
 
 export const handle = (async ({ event, resolve }) => {
   const response = await resolve(event)
