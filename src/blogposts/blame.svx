@@ -1,7 +1,7 @@
 ---
-title: Blame!
+title: Blame! (ブラム!)
 date: 2023-08-05
-desc: A masterclass in visual storytelling
+desc: A masterclass in immersive storytelling
 slug: blame
 tags:
   - manga
@@ -10,19 +10,24 @@ tags:
   - sci-fi
 ---
 
-The moment I got through reading this manga I kind of just sat at my desk, not really knowing what to do next.
-This sensation wasn't an unfamiliar one, but one that I hadn't experienced in a while.
+I rarely find myself consumed by fictional narratives. There are those that captivate and entertain - sure, but there are also those that go beyond.
+These are few and far between as they require a delicate blend of many things such as one's own interests, imagination, or the author's craft.
+
+Finishing "Blame!" put me in a somewhat helplessly pensive mood for a time.
+I would have recurring thoughts about many ideas [Tsutomu Nihei](https://en.wikipedia.org/wiki/Tsutomu_Nihei) explores and find myself revisiting specific chapters
+to uncover new interpretations or challenge old ones.
+
+It has been a couple of weeks now. The sensation of novelty has worn off, but my deep fascination doesn't falter. Nihei has truly created something superlative.
 
 The serialisation of "Blame!" ended more than 20 years ago but its appeal grows even to this day.
-Netflix made an Adaptation in 2017 that was able to capture a few elements from the original manga, but ultimately it was not the same - I still enjoyed it though, especially the soundtrack.
 
-Tsutomu Nihei's illustrations are truly something special. If you're a sci-fi enthusiast,
-you've probably seen Nihei-esque artworks without even realising.
+"Blame!" is a [manga](https://en.wikipedia.org/wiki/Manga), a long-form medium with visuals at its core - I'll let the illustrations speak for themselves.
+
 
 <img src="https://user-images.githubusercontent.com/30682722/258548814-619fcb7c-6a4f-41fa-bcab-dd458d398cc1.jpg" alt="impossible-architecture" height="500" />
 
 
-# Where It All Began
+# Hard to Say
 
 Describing "Blame!" is not easy. There isn't anything quite like it. It is simple and minimalistic, yet incredibly intricate at the same time.
 I have personally never read anything with quite the same level of depth or immersion.
@@ -31,7 +36,11 @@ The world building and atmosphere makes it truly in my opinion one of the most v
 I do understand that "Blame!" is not for everyone.
 
 It is a departure from conventional manga and probably most modern narratives as a whole.
-If it is your cup of tea, then the only downside to finishing "Blame!" is that you can only **hope** to depart the conventional sphere of world building and reach this level of immersion again.
+Staying within the confines of what people normally consider "good" (whatever that means) is the only real inhibition
+from immersing oneself in the universe of "Blame!".
+
+
+
 
 <img src="https://user-images.githubusercontent.com/30682722/258553906-09eb68cd-2a5a-446d-a471-f30b8759a3b1.png" alt="we-can't-stay-here" height="500" />
 
