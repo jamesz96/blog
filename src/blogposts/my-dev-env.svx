@@ -8,7 +8,7 @@ tags:
   - env
 ---
 
-For a long time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
+For the longest time, I was under the impression that moving to a terminal based development environment takes a lot of time and effort. But after moving to one, I would say this is only partially true.
 
 There is a stark contrast between having a *productive* environment and having the *perfect* environment.
 
