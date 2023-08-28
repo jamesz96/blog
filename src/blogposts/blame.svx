@@ -66,14 +66,23 @@ It is up to the reader to connect the dots and build their own interpretations.
 
 # Cosmic Horror
 
-Nihei's illustrations can get quite unsettling and gruesome. A visceral kind of discomfort.
-What is unusual is that there is this sensation pulling the reader back in, preventing them from looking away.
+Nihei's illustrations can get quite unsettling and gruesome. A visceral kind of discomfort takes hold of the reader.
+At the same time though, there is something pulling you in.
 
-I'm convinced that this is the tension between intellecutal curiosity of the unknown and instinctive terror, something quite tricky to achieve.
-
-Nihei's fusion of the biotic and abiotic is heavily inspired by H.R. Giger.
-
+The tension between intellectual curiosity of the unknown and primal terror.
 
 <img src="https://user-images.githubusercontent.com/30682722/263579939-492bf507-8f8b-4a88-9dd9-c248435218a9.png" alt="creep" height="500" />
 
-![](https://user-images.githubusercontent.com/30682722/263579949-2b4c959c-f2df-47d9-8a18-b5297225e983.jpg)
+Nihei's fusion of the biotic and abiotic is heavily inspired by the works of [H.R. Giger](https://en.wikipedia.org/wiki/H._R._Giger).
+
+![hr-giger-inspiration](https://user-images.githubusercontent.com/30682722/263579949-2b4c959c-f2df-47d9-8a18-b5297225e983.jpg)
+
+
+## Misc
+"Blame!" received a Netflix feature film adaption in 2017.
+
+There are many differences in both the story and art. Some elements of Nihei's original manga were captured,
+while others - not so much. But this is simply the nature of different goals and constraints of film adaptations.
+
+The full length CG film opens "Blame" to a wider appeal.
+It is a thriller at its core but manages to uphold Nihei's powerful world-building to a high degree.
