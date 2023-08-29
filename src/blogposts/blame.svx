@@ -1,6 +1,6 @@
 ---
 title: Blame! (ブラム!)
-date: 2023-08-05
+date: 2023-08-27
 desc: A masterclass in immersive storytelling
 slug: blame
 tags:
@@ -10,8 +10,8 @@ tags:
   - sci-fi
 ---
 
-I rarely find myself consumed by fictional narratives. There are those that captivate and entertain - sure, but there are also those that go beyond.
-These are few and far between as they require a delicate blend of many things such as one's own interests, imagination, values, and/or the author's craft.
+I rarely find myself consumed by fictional narratives to this extent. There are those that captivate and entertain - sure, but there are also those that go beyond.
+These are few and far between and require a delicate blend of many things such as one's own interests, imagination, values, and/or the author's craft.
 
 Finishing "Blame!" put me in a somewhat helplessly pensive mood for a time.
 I would have recurring thoughts about many ideas [Tsutomu Nihei](https://en.wikipedia.org/wiki/Tsutomu_Nihei) explores and find myself revisiting specific chapters
@@ -22,7 +22,7 @@ The serialisation of "Blame!" ended more than 20 years ago but its appeal grows 
 For a [manga](https://en.wikipedia.org/wiki/Manga) (a long-form medium with visuals at its core), "Blame!" is as avant-garde as it gets.
 The ideas, the narrative, and the art.
 
-Oh, the art is truly something else.
+Oh, the art. It is truly something special.
 
 <img src="https://user-images.githubusercontent.com/30682722/258548814-619fcb7c-6a4f-41fa-bcab-dd458d398cc1.jpg" alt="impossible-architecture" height="500" />
 
@@ -66,10 +66,9 @@ It is up to the reader to connect the dots and build their own interpretations.
 
 # Cosmic Horror
 
-Nihei's illustrations can get quite unsettling and gruesome. A visceral kind of discomfort takes hold of the reader.
-At the same time though, there is something pulling you in.
+Nihei's illustrations can get quite unsettling and gruesome. They evoke a visceral kind of discomfort, yet at the same time, pulling the reader back in.
 
-The tension between intellectual curiosity of the unknown and primal terror.
+This sensation is peculiar one, a sort of tension between intellectual curiosity and primal terror.
 
 <img src="https://user-images.githubusercontent.com/30682722/263579939-492bf507-8f8b-4a88-9dd9-c248435218a9.png" alt="creep" height="500" />
 
@@ -85,4 +84,4 @@ There are many differences in both the story and art. Some elements of Nihei's o
 while others - not so much. But this is simply the nature of different goals and constraints of film adaptations.
 
 The full length CG film opens "Blame" to a wider appeal.
-It is a thriller at its core but manages to uphold Nihei's powerful world-building to a high degree, thanks to the brilliant musical score by Yugo Kanno.
+It is a thriller at its core but manages to uphold Nihei's powerful world-building to a reasonable degree, in part thanks to the brilliant musical score by Yugo Kanno.
