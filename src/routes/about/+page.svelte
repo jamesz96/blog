@@ -2,6 +2,7 @@
   import { browser, dev } from '$app/environment';
   import TechSection from '$lib/components/about/TechSection.svelte';
   import Section from '$lib/components/Section.svelte';
+  import SEO from '$lib/components/SEO.svelte';
 
   // we don't need any JS on this page, though we'll load
   // it in dev so that we get hot module replacement...
@@ -16,6 +17,7 @@
   <title>About</title>
 </svelte:head>
 
+<SEO />
 <main class="main">
   <div class="content">
     <Section title="About Me">

@@ -1,40 +1,26 @@
 <script lang="ts">
-  import { page } from '$app/stores';
-  import data from '$lib/data/site';
-
-  const { siteName, siteUrl } = data;
-
-  export let title: string;
-  export let isPost = false;
-  export let thumbnail: string | boolean = false;
-  export let desc: string = data.desc;
-  export let keywords: string[] = data.keywords;
+  import { page } from '$app/stores'
+  import { buildSEOMetadata } from '$lib/data/seo';
+  const meta = buildSEOMetadata($page)
 </script>
 
 <svelte:head>
-  <title>{title}</title>
-  <link rel="canonical" href="{siteUrl}{$page.url.pathname}" />
-  <meta name="description" content={desc} />
-  <meta name="keywords" content={keywords.join(',').toLowerCase()} />
+  <title>{meta.title}</title>
+  <link rel="canonical" href={meta.url} />
+  <meta name="description" content={meta.desc} />
+  <meta name="keywords" content={meta.keywords} />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content={isPost ? 'blog' : 'website'} />
-  <meta property="og:url" content="{siteUrl}{$page.url.pathname}" />
-  <meta property="og:title" content={title || siteName} />
-  <meta property="og:description" content={desc} />
-  <meta
-    property="og:image"
-    content={thumbnail
-      ? thumbnail.toString()
-      : 'https://avatars.githubusercontent.com/u/30682722?v=4'}
-  />
+  <meta property="og:type" content={meta.ogType} />
+  <meta property="og:url" content={meta.url} />
+  <meta property="og:title" content={meta.title} />
+  <meta property="og:description" content={meta.desc} />
+  <meta property="og:image" content={meta.img} />
 
   <!-- Twitter -->
-  <meta property="twitter:card" content={thumbnail ? 'summary_large_image' : 'summary'} />
-  <meta property="twitter:url" content="{siteUrl}{$page.url.pathname}" />
-  <meta property="twitter:title" content={title || siteName} />
-  <meta property="twitter:description" content={desc} />
-  {#if thumbnail}
-    <meta property="twitter:image" content={thumbnail ? thumbnail.toString() : ''} />
-  {/if}
+  <meta property="twitter:card" content={meta.twitterCard} />
+  <meta property="twitter:url" content={meta.url} />
+  <meta property="twitter:title" content={meta.title} />
+  <meta property="twitter:description" content={meta.desc} />
+  <meta property="twitter:image" content={meta.img} />
 </svelte:head>
