@@ -26,11 +26,8 @@ const routeTitleMap: { [key: string]: string } = {
 export function buildSEOMetadata(
   page: Page<Record<string, string>, string | null>
 ): OpenGraphMetadata & TwitterMetadata & GenericMetadata {
-
   const { siteDesc, siteKeywords, siteImg } = data
-
   const isBlogpost = Boolean(page.params.slug) && page.route.id === '/blog/[slug]'
-
   const routeId = page.route.id as string
 
   if (isBlogpost) {
