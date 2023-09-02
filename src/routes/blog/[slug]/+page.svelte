@@ -7,7 +7,7 @@
   export let data: PageData;
 
   const component = data.component;
-  const { title, date, desc, tags, slug } = data.meta;
+  const { title, date, tags, slug } = data.meta;
   const editLink = `https://github.com/jamszh/blog/tree/main/src/blogposts/${slug}.svx`;
 </script>
 
@@ -15,7 +15,7 @@
   <link rel="preload" as="style" />
 </svelte:head>
 
-<SEO {desc} {title} />
+<SEO />
 
 <section class="post">
   <h1 class="post__title">{title}</h1>

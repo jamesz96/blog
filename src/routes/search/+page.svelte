@@ -28,7 +28,7 @@
 
 </script>
 
-<SEO title="Search" />
+<SEO />
 <main class="main">
   <div class="search">
     <div class="search__icon">🔎︎</div>

@@ -5,7 +5,7 @@
   import Bio from '$lib/components/Bio.svelte';
 </script>
 
-<SEO title="Home" />
+<SEO />
 
 <main class="main">
   <div class="content">
