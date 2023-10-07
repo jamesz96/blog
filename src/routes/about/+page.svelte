@@ -23,18 +23,12 @@
     <Section title="About Me">
       <body>
         <p>
-          I'm a full-stack software engineer working in Sydney, Australia.
+          I'm a software engineer working in Sydney, Australia.
           <br />
           My experience has mostly been on web apps, but I consider myself as more of a generalist.
         </p>
         <br />
-        <p>
-          For me, learning things as I go is the name of the game.
-          <br />
-          Whether it being on-the-job or letting my curiosity take the driver's seat.
-        </p>
-        <br />
-        <p>It has been great fun so far.</p>
+        <p>Learning things as I go is the name of the game.</p>
       </body>
     </Section>
     <TechSection />
@@ -44,11 +38,11 @@
         <li>
           Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a>
         </li>
+        <li>Exploring the late modern period in history</li>
         <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota2.</li>
-        <li>Enjoy learning about the late modern period in history</li>
         <li>Reading blogs and books on science/tech</li>
         <li>Tennis, yoga, and general fitness</li>
-        <li>Learning German and <i>maybe later...</i> Mandarin Chinese</li>
+        <li>Learning German and Mandarin Chinese</li>
         <li>
           Music. Favourite genre is either Trance or Progressive House but I usually find myself
           enjoying almost anything
