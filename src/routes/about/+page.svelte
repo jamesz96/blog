@@ -38,18 +38,13 @@
         <li>
           Tinkering with my Neovim <a href="https://www.youtube.com/watch?v=QMVIJhC9Veg">PDE</a>
         </li>
-        <li>Exploring the late modern period in history</li>
-        <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota2.</li>
-        <li>Reading blogs and books on science/tech</li>
-        <li>Tennis, yoga, and general fitness</li>
+        <li>Modern history nerd 🤓</li>
+        <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota 2</li>
+        <li>Long hikes, tennis, ping pong</li>
         <li>Learning German and Mandarin Chinese</li>
-        <li>
-          Music. Favourite genre is either Trance or Progressive House but I usually find myself
-          enjoying almost anything
-        </li>
-        <ul />
-      </ul></Section
-    >
+        <li>Listening to german rap, trance/house, japanese pop and soundtracks from video games</li>
+      </ul>
+    </Section>
   </div>
 </main>
 

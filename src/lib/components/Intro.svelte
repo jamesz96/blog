@@ -1,5 +1,5 @@
 <section class="section">
-  <h1>Hey, I'm James!</h1>
+  <h1 class="title">Hey, I'm James!</h1>
   <div class="subtitle">
     <div class="word">
       <div class="translated">张</div>
@@ -16,10 +16,14 @@
 <style>
   .section {
     display: flex;
-    font-family: var(--font-family);
+    font-family: var(--font-family-code);
     color: var(--color-main-text);
     flex-direction: column;
     gap: 2rem;
+  }
+
+  .title {
+    font-weight: 300;
   }
 
   .word {
@@ -33,7 +37,6 @@
   }
 
   .subtitle {
-    font-family: var(--font-family-code);
     display: flex;
     flex-direction: row;
     align-items: flex-end;
