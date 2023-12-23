@@ -6,11 +6,11 @@
 <section class="root">
   {#if subtitle}
     <span>
-      <h2>{title}</h2>
+      <h2 class="root__title">{title}</h2>
       <div>{subtitle}</div>
     </span>
   {:else}
-    <h2>{title}</h2>
+    <h2 class="root__title">{title}</h2>
   {/if}
   <div class="content">
     <slot />
@@ -20,9 +20,13 @@
 <style>
   .root {
     display: grid;
-    font-family: var(--font-family);
+    font-family: var(--font-family-code);
     color: var(--color-main-text);
     justify-items: left;
+  }
+
+  .root__title {
+    font-weight: 300;
   }
 
   .root span {

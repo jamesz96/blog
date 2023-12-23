@@ -52,6 +52,7 @@
     flex-direction: column;
     color: var(--color-main-text);
     font-family: var(--font-family-code);
+    font-weight: 300;
     align-items: center;
   }
 

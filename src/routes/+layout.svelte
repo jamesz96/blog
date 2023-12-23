@@ -41,11 +41,12 @@
 <style>
   main {
     display: flex;
+    margin-top: 3rem;
     flex-direction: column;
   }
 
   div {
     flex: 1;
-    margin-top: 4.5rem;
+    margin-top: 3rem;
   }
 </style>

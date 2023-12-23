@@ -20,7 +20,7 @@
 
 <style>
   .subtitle {
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
   }
 
