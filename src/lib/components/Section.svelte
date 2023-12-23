@@ -26,7 +26,7 @@
   }
 
   .root__title {
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .root span {
