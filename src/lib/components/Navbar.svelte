@@ -1,7 +1,7 @@
 <script lang="ts">
   import Moon from '$lib/components/Moon.svelte';
   import { page } from '$app/stores';
-  const items = ['/', '/search', '/about']
+  const items = ['/', '/search', '/about', '/diary']
 </script>
 
 <nav class="navbar">

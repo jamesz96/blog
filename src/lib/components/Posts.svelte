@@ -3,13 +3,14 @@
   import type { Metadata } from '$lib/request/fetch';
 
   export let data: Array<Metadata>;
+  export let isDiary: boolean = false;
 </script>
 
 <div class="cards">
   {#each data as item}
     <PostCard
       title={item.title}
-      href={`/blog/${item.slug}`}
+      href={`/${isDiary ? 'diary' : 'blog'}/${item.slug}`}
       desc={item.desc}
       date={item.date}
       tags={item.tags}
