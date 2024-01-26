@@ -1,5 +1,5 @@
 ---
-title: Heute, Ich fang mein Tagesbuch an
+title: Heute fang ich mein Tagesbuch an
 date: 2024-01-26
 desc: Damit ich Deutsch verbessern
 slug: 2024-01-26_de
