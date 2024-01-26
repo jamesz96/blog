@@ -1,0 +1,20 @@
+---
+title: Heute, Ich fang mein Tagesbuch an
+date: 2024-01-26
+desc: Damit ich Deutsch verbessern
+slug: 2024-01-26_de
+lang: de
+tags:
+  - Tagesbuch
+---
+
+Sie lesen nun mein ersten eintrag eines Tagesbuch.
+Ich wunsch, dass kann ich jeden Tag bisschen etwas hier schreiben. Es muss nicht weder kompliziert noch lange zu sein.
+
+Bisschen Sache ist besser als nichts. 😊
+
+Wenn lerne ich ein neues Wort, werde ich unter auflisten.
+
+## Neues Wörter
+
+- auflisten

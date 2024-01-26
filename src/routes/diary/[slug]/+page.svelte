@@ -7,8 +7,11 @@
   export let data: PageData;
 
   const component = data.component;
-  const { title, date, tags, slug } = data.meta;
-  const editLink = `https://github.com/jamszh/blog/tree/main/src/blogposts/${slug}.svx`;
+  const { title, date, tags, slug, lang } = data.meta;
+  const editLink = `https://github.com/jamszh/blog/tree/main/src/diary/${slug}.svx`;
+  const dateKey = slug.split('_')[0]
+  const translateLink = `/diary/${dateKey}_${lang === 'cn' ? 'de' : 'cn'}`
+  const translateText = lang === 'cn' ? '德文版本' : 'Chinesisch Version'
 </script>
 
 <svelte:head>
@@ -28,13 +31,24 @@
       year: 'numeric'
     })}
   </span>
-  <a class="post__edit" href={editLink} target="_blank" rel="norel noreferrer">Suggest an Edit</a>
+  <a
+    class="post__edit"
+    href={editLink}
+    target="_blank"
+    rel="norel noreferrer"
+  >Suggest an Edit</a>
   <div class="post__tags">
     {#each tags as tag}
       <div class="post__tag">{tag}</div>
     {/each}
   </div>
   <div class="post__content">
+    <a
+      class="post__edit"
+      href={translateLink}
+      target="_self"
+      rel="norel noreferrer"
+    >{translateText}</a>
     <svelte:component this={component} />
     <div class="comments">
       <Giscus

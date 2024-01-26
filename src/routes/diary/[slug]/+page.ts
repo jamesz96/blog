@@ -5,7 +5,7 @@ import { error } from '@sveltejs/kit';
 type HandlerMap = { [slug: string]: () => Promise<App.MdsvexFile> }
 
 export const load: PageLoad = async ({ params }) => {
-  const modules = import.meta.glob<boolean, string, App.MdsvexFile>('/src/blogposts/*.svx');
+  const modules = import.meta.glob<boolean, string, App.MdsvexFile>('/src/diary/*.svx');
   const handlerMap = Object.entries(modules).reduce<HandlerMap>((acc, [path, handler]) => {
     return { ...acc, [pathToSlug(path)]: handler }
   }, {})
