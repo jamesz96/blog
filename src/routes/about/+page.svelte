@@ -42,7 +42,7 @@
         <li>Oldschool Runescape and Street Fighter 6. It used to be a lot of Dota 2</li>
         <li>Long hikes, tennis, ping pong</li>
         <li>Learning German and Mandarin Chinese</li>
-        <li>Listening to german rap, trance/house, japanese pop and soundtracks from video games</li>
+        <li>Listening to german/japanese pop, trance/house, and soundtracks from video games</li>
       </ul>
     </Section>
   </div>
