@@ -1,8 +1,8 @@
 ---
 title: 自由泳
-date: 2024-01-28
+date: 2024-01-29
 desc: 今天我游泳了, 感觉很棒！
-slug: 2024-01-28_cn
+slug: 2024-01-29_cn
 lang: cn
 tags:
   - 游泳
