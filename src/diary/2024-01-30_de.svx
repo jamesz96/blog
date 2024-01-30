@@ -1,0 +1,15 @@
+---
+title: Schade, ich bin heute müde
+date: 2024-01-30
+desc: Ich will heute nicht viel schreiben
+slug: 2024-01-30_de
+lang: de
+tags:
+  - schreiben
+---
+
+Es ist zu spät. Ich hatte mehr Arbeit als normaler, weil ich müde bin!
+Ich muss jetzt anruhen...
+
+## Neues Wörter
+
