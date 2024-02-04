@@ -1,0 +1,34 @@
+---
+title: Der letzte Tag
+date: 2024-02-04
+desc: Heute hat der letzten Tag den "Powerhouse Museum" geöffnet
+slug: 2024-02-04_de
+lang: de
+tags:
+  - Powerhouse Museum
+---
+
+Der "Powerhouse Museum" ist ein sehr bekannten Museum von Australien.
+Er gibt viele Sachen zu sehen. Man kann die manche Exponate erkunden, Kunst besichtigen, Geschichte lernen...
+
+<img src="https://imgur.com/04Gh9jX.jpg" alt="old australian art" style="max-height:500px" />
+
+Alles interessiert mich besser als ich war jünger.
+
+Mein lieblings exponat war wahrscheinlich die Dampfmaschinen, vor dem Menschen kann Strom für Energie nutzen.
+
+In nur zweihundert Jahren hat Australien so viele ändern.
+
+Es ist unglaublich... 🫨
+
+<img src="https://imgur.com/x0che9n.jpg" alt="1800s australian photo" style="max-height:500px" />
+
+Morgen wird der Museum drei Jahren geschlossen, weil es fang wichtige Raniervorung an.
+Das ist lang!
+
+
+## Neues Wörter
+- Exponat (n)
+- Strom (m)
+- Dampf (m)
+- Renovierung
