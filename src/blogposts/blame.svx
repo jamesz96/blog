@@ -24,7 +24,7 @@ The ideas, the narrative, and the art.
 
 Oh, the art. The art is truly something special.
 
-<img src="https://user-images.githubusercontent.com/30682722/258548814-619fcb7c-6a4f-41fa-bcab-dd458d398cc1.jpg" alt="impossible-architecture" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/258548814-619fcb7c-6a4f-41fa-bcab-dd458d398cc1.jpg" alt="impossible-architecture" style="max-height:500px" />
 
 # Distinction
 
@@ -38,7 +38,7 @@ It is a departure from conventional manga and probably most modern narratives as
 Staying within the confines of what people normally consider *"good"* (whatever that means) is the only real inhibition
 from immersing oneself in the universe of "Blame!".
 
-<img src="https://user-images.githubusercontent.com/30682722/258553906-09eb68cd-2a5a-446d-a471-f30b8759a3b1.png" alt="we-can't-stay-here" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/258553906-09eb68cd-2a5a-446d-a471-f30b8759a3b1.png" alt="we-can't-stay-here" style="max-height:500px" />
 
 
 # Scale
@@ -48,9 +48,9 @@ The scale of time and space in "Blame!" are both terrifyingly enormous.
 Colossal megastructures, limitless landscapes, inconceivable architecture, are all things Nihei has created which fill the reader with a profound sense of existential emptiness.
 Cosmic horror can apply to environments just as it does to entities.
 
-<img src="https://user-images.githubusercontent.com/30682722/258554868-e6073989-c27b-4ad4-8e93-40c3d4707107.jpg" alt="rooftop" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/258554868-e6073989-c27b-4ad4-8e93-40c3d4707107.jpg" alt="rooftop" style="max-height:500px" />
 
-<img src="https://user-images.githubusercontent.com/30682722/258554324-6ca46982-74dd-4c30-a3b3-1071ed3ffae1.png" alt="automation-factory" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/258554324-6ca46982-74dd-4c30-a3b3-1071ed3ffae1.png" alt="automation-factory" style="max-height:500px" />
 
 
 # Ambiguity
@@ -61,7 +61,7 @@ The unbelievably expressive illustrations of environments carry the weight of wo
 Just like a Soulsbourne game, there is little to no hand-holding.
 It is up to the reader to connect the dots and build their own interpretations.
 
-<img src="https://user-images.githubusercontent.com/30682722/263572053-58388dcd-50ff-4131-8d7e-faaa30a8ccd6.png" alt="inverted-castle" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/263572053-58388dcd-50ff-4131-8d7e-faaa30a8ccd6.png" alt="inverted-castle" style="max-height:500px" />
 
 
 # Cosmic Horror
@@ -70,12 +70,11 @@ Nihei's illustrations can get quite unsettling and gruesome. They evoke a viscer
 
 This sensation is peculiar one, a sort of tension between intellectual curiosity and primal terror.
 
-<img src="https://user-images.githubusercontent.com/30682722/263579939-492bf507-8f8b-4a88-9dd9-c248435218a9.png" alt="creep" height="500" />
+<img src="https://user-images.githubusercontent.com/30682722/263579939-492bf507-8f8b-4a88-9dd9-c248435218a9.png" alt="creep" style="max-height:500px" />
 
 Nihei's fusion of the biotic and abiotic is heavily inspired by the works of [H.R. Giger](https://en.wikipedia.org/wiki/H._R._Giger).
 
 ![hr-giger-inspiration](https://user-images.githubusercontent.com/30682722/263579949-2b4c959c-f2df-47d9-8a18-b5297225e983.jpg)
-
 
 ## Misc
 "Blame!" received a Netflix feature film adaption in 2017.

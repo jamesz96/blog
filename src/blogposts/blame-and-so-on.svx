@@ -11,7 +11,7 @@ tags:
 
 While I was unwrapping, two things came to mind that struck me as surreal.
 
-![blame and so on cover](https://user-images.githubusercontent.com/30682722/292602984-b0bdeb22-3161-4c67-820b-3bbeb88a8580.jpg)
+<img src="https://user-images.githubusercontent.com/30682722/292602984-b0bdeb22-3161-4c67-820b-3bbeb88a8580.jpg" alt="blame and so on book cover" style="max-height:500px" />
 
 - Finally owning a copy
 - Spending money on art
@@ -19,19 +19,21 @@ While I was unwrapping, two things came to mind that struck me as surreal.
 
 ### Man... These Panels  🫨
 
-![Mensab & Seu](https://user-images.githubusercontent.com/30682722/292584728-2fe6bd1b-1060-4604-8d77-28857f8bb96c.jpg)
+<center><i>Killy</i></center>
+<img src="https://i.imgur.com/tNgTnH3.jpeg" alt="Killy" style="max-height:600px" />
 
-*Fascination runs deep...*
+<br />
 
-![The Observer](https://user-images.githubusercontent.com/30682722/292584804-e0e31529-9ab2-42a0-885b-60f2f64c8d0b.jpg)
+<center><i>Mensab & Seu</i></center>
+<img src="https://user-images.githubusercontent.com/30682722/292584728-2fe6bd1b-1060-4604-8d77-28857f8bb96c.jpg" alt="Mensab & Seu" style="max-height:600px" />
 
-*Irrational, disjoint, and disconnected from reality...*
+<br />
 
-![Davine](https://user-images.githubusercontent.com/30682722/292602148-94b888eb-c132-4c01-a7ba-d9095b78cb60.jpg)
+<center><i>The Observer</i></center>
+<img src="https://user-images.githubusercontent.com/30682722/292584804-e0e31529-9ab2-42a0-885b-60f2f64c8d0b.jpg" alt="The Observer" style="max-height:600px" />
 
-*Wirklich, der Sinn des Lebens - vielleicht habe ich es gefunden?*
+<br />
 
-![Labyrinth cityscape](https://user-images.githubusercontent.com/30682722/292602170-c27bf2f1-9346-4ba3-9f8a-080a692829a7.jpg)
-
-*Disorient me baby*
+<center><i>Davine Lu Linvega</i></center>
+<img src="https://user-images.githubusercontent.com/30682722/292602148-94b888eb-c132-4c01-a7ba-d9095b78cb60.jpg" alt="The Observer" style="max-height:600px" />
 
