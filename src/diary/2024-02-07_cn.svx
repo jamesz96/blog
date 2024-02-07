@@ -1,0 +1,31 @@
+---
+title: 最怕空气突然安静
+date: 2024-02-07
+desc: 没有听过这些歌词. 我靠!
+slug: 2024-02-07_cn
+lang: cn
+tags:
+  - 歌词
+
+---
+
+<script>
+  import Video from '$lib/components/Video.svelte'
+</script>
+
+今天我的班同事介绍了这些歌词。
+
+"最怕空气突然安静"
+
+听起来有意思。深的意思可能没理解，但只有一点点感觉就对我很幸福！
+
+我学了这歌词是从一非常有名的音乐。
+
+国内本地人都知道它。
+
+___
+
+<Video videoId="6WFuOPVnyLk" title="五月天-突然好想你MV" />
+
+## 新的词
+- 歌词

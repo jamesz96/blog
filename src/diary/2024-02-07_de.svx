@@ -1,0 +1,33 @@
+---
+title: 最怕空气突然安静
+date: 2024-02-06
+desc: Ich habe es nie vor gehören, schade!
+slug: 2024-02-07_de
+lang: de
+tags:
+  - Liedtext
+---
+
+<script>
+  import Video from '$lib/components/Video.svelte'
+</script>
+
+Heute hat mir eine Kollegin diese chinesische Liedtext vorstellen.
+
+"最怕空气突然安静"
+
+Meine eigene Übersetzung: *"es gibt am meisten Angst, wenn die Luft plötzlich beruhigen werden"*
+
+Diese Liedtext interessiert mich sehr. Die Bedeutung ist zu tief für mich, aber ich fühl mich manchen Verstand über die Bedeutung, die deshalb es gibt mir Freude.
+
+Der Liedtext ist von ein sehr bekanntes Lied. Jeder Mensch in China kennt es.
+
+___
+
+<Video videoId="6WFuOPVnyLk" title="五月天-突然好想你MV" />
+
+
+## Neues Wörter
+- Liedtext
+- plötzlich
+- eigene
