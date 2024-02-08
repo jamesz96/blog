@@ -22,9 +22,6 @@ export const load: PageLoad = async ({ params }) => {
 
   return {
     component: post.default,
-    meta: {
-      ...post.metadata,
-      ...(post.metadata.tags ? { tags: post.metadata.tags } : { tags: [] })
-    }
+    meta: post.metadata,
   };
 };

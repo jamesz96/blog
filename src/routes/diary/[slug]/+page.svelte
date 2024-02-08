@@ -12,6 +12,10 @@
   const dateKey = slug.split('_')[0]
   const translateLink = `/diary/${dateKey}_${lang === 'cn' ? 'de' : 'cn'}`
   const translateText = lang === 'cn' ? '德文版本' : 'Chinesisch Version'
+
+
+  const postTags = tags || []
+
 </script>
 
 <svelte:head>
@@ -38,7 +42,7 @@
     rel="norel noreferrer"
   >Suggest an Edit</a>
   <div class="post__tags">
-    {#each tags as tag}
+    {#each postTags as tag}
       <div class="post__tag">{tag}</div>
     {/each}
   </div>

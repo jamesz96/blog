@@ -15,7 +15,10 @@
   let query = ''
 
   onMount(() => {
-    searchClient = algoliasearch(import.meta.env.VITE_ALGOLIA_APP_ID, import.meta.env.VITE_ALGOLIA_SEARCH_KEY)
+    searchClient = algoliasearch(
+      import.meta.env.VITE_ALGOLIA_APP_ID,
+      import.meta.env.VITE_ALGOLIA_SEARCH_KEY
+    )
     index = searchClient.initIndex("posts")
     results = data.posts
   })
