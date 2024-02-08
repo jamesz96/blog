@@ -29,7 +29,13 @@ async function getMetadataList(
   modules: Record<string, () => Promise<App.MdsvexFile>>
 ): Promise<Metadata[]> {
   const result = await Promise.all(Object.values(modules).map(resolve));
-  return result.map(metadataMapper).sort(mostRecent);
+  return result
+    .map(metadataMapper)
+    .sort(mostRecent)
+    .map(item => ({
+      ...item,
+      ...(item.tags ? { tags: item.tags } : { tags: [] }),
+    }));
 }
 
 async function resolve(resolver: App.MdsvexResolver): Promise<App.MdsvexFile> {

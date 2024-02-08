@@ -36,7 +36,7 @@ export function buildSEOMetadata(
     return {
       title: page.data.meta.title,
       desc: page.data.meta.desc,
-      keywords: page.data.meta.tags.join(',').toLowerCase(),
+      keywords: (page.data.meta?.tags ?? []).join(',').toLowerCase(),
       url: page.url.href,
       img: siteImg, /** @TODO Blogpost thumbnails */
       ogType: 'website',
