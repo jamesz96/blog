@@ -1,0 +1,35 @@
+---
+title: 白蛇
+date: 2024-02-18
+desc: 这周末我看了两个电影从中国
+slug: 2024-02-18_cn
+lang: cn
+tags:
+  - 蛇
+
+---
+
+<script>
+  import Video from '$lib/components/Video.svelte'
+</script>
+
+很可惜我的中文还不够好，还不会听懂一半我在看时候。
+
+没法懂时，就需要打开英语字幕。
+
+我这样看下去。好看是好看但我没有提高我的听力技巧 。🙁
+
+应该从新开始看这儿电影在 "Netflix" 上，茫茫的学我没有明白的子。
+
+___
+
+没有听过这个电影？给你看看。。。
+
+*白蛇二*
+
+<Video videoId="sQIEzGVNzHI" title="White Snake 2 | Episode MV" />
+
+
+## 新的词
+  - 任务
+  - 技巧

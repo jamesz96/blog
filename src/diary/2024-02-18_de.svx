@@ -1,0 +1,34 @@
+---
+title: Weiße Schlange
+date: 2024-02-18
+desc: hab' diese Wochenende zwei chinesische Filme gesehen
+slug: 2024-02-18_de
+lang: de
+tags:
+  - Schlange
+---
+
+<script>
+  import Video from '$lib/components/Video.svelte'
+</script>
+
+Wann sehe ich das Film, meine Hörfähigkeiten ist nicht genug. Wahrscheinlich nur halbe Bedeutung kann ich verstehen. Das tut mir leid.
+
+Wenn ich kann nicht etwas verstehen, danach ich mache die englische Untertitel an.
+
+So wie das hatte ich diese Filme gesehen. Es gefällt mir gut, aber ich hatte nicht meine Hörfähigkeiten verbessern. 🙁
+
+Ich solle wieder die Filme sehen auf "Netflix" von dem Anfang, dabei will ich langsam neue Wörter lernen.
+
+___
+
+Hast du nie diese Filme hören? Guck mal hier...
+
+*Weiße Schlange Zwei*
+
+<Video videoId="sQIEzGVNzHI" title="White Snake 2 | Episode MV" />
+
+
+## Neues Wörter
+- Schlange
+- Fähigkeit
