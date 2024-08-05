@@ -5,6 +5,7 @@ desc: Making my own blog is something I’d never thought I would do and yet, he
 slug: starting_a_blog
 tags:
   - blog
+  - ramble
 ---
 
 ![Greek thinker pose](https://user-images.githubusercontent.com/30682722/227648225-1501b90e-b45c-416e-b8c6-2e314a295c1c.png "Midjourney prompt: 'man in greek thinker pose, fiddling with pen, geometric lines, black and white pencil, scraps of draft paper tossed aside, full body'")
@@ -41,7 +42,7 @@ If not and it is just shy of tipping the balance, then you have to either:
 - become more confident at writing
 - find some more motivation.
 
-Unfortunately, motivation isn't abundant for most people and it is not something you can just rustle up whenever.
+Unfortunately, motivation is fleeting - it is not something you can just rustle up whenever you like.
 
 This leaves the first two options. I think both can be somewhat addressed in these ways:
 
@@ -55,5 +56,4 @@ Writing does not come naturally to me and I have a long way to go, but practicin
 
 ## What now?
 
-I have yet to find a stable footing in the world of writing and I suppose it is now just a matter of training it.
-
+Well, let's get started then, shall we?

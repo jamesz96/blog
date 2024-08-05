@@ -64,7 +64,7 @@
   }
 
   .main > .section {
-    margin-top: 3rem;
+    padding: 3rem 0;
     width: 80%;
   }
 
