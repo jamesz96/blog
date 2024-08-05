@@ -81,7 +81,7 @@ My shell looks like this:
 
 ## Neovim
 
-The humble code editor. The focal point of any DEV environment.
+The humble code editor. The cornerstone of any DEV environment.
 
 Writing a short paragraph about it won't do it justice so I'll probably dedicate an entire post about my Neovim config in the future.
 
@@ -134,5 +134,4 @@ The [dotbot](https://github.com/anishathalye/dotbot) tool makes it reasonably ea
 
 # Final Words
 
-There are still so many things I want to improve for my setup, but I've decided to take it slow for now.
-I'm in it for the long haul anyway.
+There are still so many things I want to improve for my setup, but I've decided to not rush things - I'm in it for the long haul anyway.
